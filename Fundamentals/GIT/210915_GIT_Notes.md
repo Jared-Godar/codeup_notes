@@ -32,7 +32,7 @@
     - DS practitionares uning SE workflows (new trent) a lot of your competition doesn't know / isnt using GIT, but employers are - competative edge
     - Tracking changes in analysis with hundreds/thousands of lines of code, much easier in git 
 
- ## NOW WHAT
+## NOW WHAT
     - Formal git curriculum
     - Turn regular directories into repositories
     - All repositories are foldwes, but not all forders are repositories
@@ -42,5 +42,18 @@
     - Push (upload) sends to GitHub in the cloud. Can use github as simple backup, or edit directly on github
     - Pull (download): brings most up to date github cloud back down to local (laptop) environment
     - Clone Copies the entire repository from cloud to local environment
+
+## Questions
+- You cautioned us about making repositories within repositories
+    - I didn't, but I did
+- Cloned your notes repository into my notes folder
+- Git threw a warning
+- Tried to fix it by movimg your 'git_with_it' folder via finder
+- Then close reading of the error message, and tried to use their command line snippet (which didn't work because the folder wasn't there anymore)
+
+## Next steps:
+    - Research quick start guide on markdown language and tags
+    - Transfer existing, hand-written reading notes to appropriate new folder / document
+    - Capture highlights from handwritten course notes on here.
 
     
