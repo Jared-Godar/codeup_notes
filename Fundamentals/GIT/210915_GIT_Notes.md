@@ -1,4 +1,4 @@
-##DEFINITIONS
+## DEFINITIONS
 
 - GIT: Distributed version control system. 
     - Free. 
@@ -12,7 +12,7 @@
             0 lacking - why change was made and if new users need to know anything else
 
 
-##VOCABULARY:
+## VOCABULARY:
 
     - repository: directory managed by git; 
     - add: tell git which files we wish to look at for the nxt commit
@@ -26,13 +26,13 @@
 
     - WHen git is enabled, we enable on entire folder/directory. Including subfolders and all files. In specific scenrios - like passwords or other sensative files - we can tell to ignore specific files.
 
-##SO WHAT
+## SO WHAT
     - Most interested in the permanent record part. Commits at good points - mess something up, can roll back.
     - Large trend in Data Science is adpoting methods, tools, and workflows that are extablished best practices in software engineering. 
     - DS practitionares uning SE workflows (new trent) a lot of your competition doesn't know / isnt using GIT, but employers are - competative edge
     - Tracking changes in analysis with hundreds/thousands of lines of code, much easier in git 
 
- ##NOW WHAT
+ ## NOW WHAT
     - Formal git curriculum
     - Turn regular directories into repositories
     - All repositories are foldwes, but not all forders are repositories
