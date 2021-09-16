@@ -14,36 +14,39 @@
 
 ## VOCABULARY:
 
-    - repository: directory managed by git; 
-    - add: tell git which files we wish to look at for the nxt commit
-    - commit: create a "save point" formal snapshot of a repositry.
-    - push: copy state of a local repositry elsewhere; for our purposes, most commonly used to send
+- repository: directory managed by git; 
+- add: tell git which files we wish to look at for the nxt commit
+- commit: create a "save point" formal snapshot of a repositry.
+- push: copy state of a local repositry elsewhere; for our purposes, most commonly used to send
 
-    - GIT 
-        - Internally works like blockchain
-        - Tracks all changes to any line of code / text in any file we are tracking
-        - Permanent record with a timeline that has the ablilty to branch/- - navigate/merge parallel timelines
+- GIT 
+    - Internally works like blockchain
+    - Tracks all changes to any line of code / text in any file we are tracking
+    - Permanent record with a timeline that has the ablilty to branch/- - navigate/merge parallel timelines
 
-    - WHen git is enabled, we enable on entire folder/directory. Including subfolders and all files. In specific scenrios - like passwords or other sensative files - we can tell to ignore specific files.
+- WHen git is enabled, we enable on entire folder/directory. Including subfolders and all files. In specific scenrios - like passwords or other sensative files - we can tell to ignore specific files.
 
 ## SO WHAT
-    - Most interested in the permanent record part. Commits at good points - mess something up, can roll back.
-    - Large trend in Data Science is adpoting methods, tools, and workflows that are extablished best practices in software engineering. 
-    - DS practitionares uning SE workflows (new trent) a lot of your competition doesn't know / isnt using GIT, but employers are - competative edge
-    - Tracking changes in analysis with hundreds/thousands of lines of code, much easier in git 
+
+- Most interested in the permanent record part. Commits at good points - mess something up, can roll back.
+ - Large trend in Data Science is adpoting methods, tools, and workflows that are extablished best practices in software engineering. 
+- DS practitionares uning SE workflows (new trent) a lot of your competition doesn't know / isnt using GIT, but employers are - competative edge
+- Tracking changes in analysis with hundreds/thousands of lines of code, much easier in git 
 
 ## NOW WHAT
-    - Formal git curriculum
-    - Turn regular directories into repositories
-    - All repositories are foldwes, but not all forders are repositories
-    - git runs on a computer (laptop, desktop, servers)
-    - Doesn't automatically back up - our responsibility to back up. (GitHub makes this easy and cheap) - 
-    - Codeup Git bill about $150 a month for all of codeup 
-    - Push (upload) sends to GitHub in the cloud. Can use github as simple backup, or edit directly on github
-    - Pull (download): brings most up to date github cloud back down to local (laptop) environment
-    - Clone Copies the entire repository from cloud to local environment
+   
+- Formal git curriculum
+- Turn regular directories into repositories
+- All repositories are foldwes, but not all forders are repositories
+- git runs on a computer (laptop, desktop, servers)
+- Doesn't automatically back up - our responsibility to back up. (GitHub makes this easy and cheap) - 
+- Codeup Git bill about $150 a month for all of codeup 
+- Push (upload) sends to GitHub in the cloud. Can use github as simple backup, or edit directly on github
+- Pull (download): brings most up to date github cloud back down to local (laptop) environment
+- Clone Copies the entire repository from cloud to local environment
 
 ## Questions
+
 - You cautioned us about making repositories within repositories
     - I didn't, but I did
 - Cloned your notes repository into my notes folder
@@ -52,11 +55,13 @@
 - Then close reading of the error message, and tried to use their command line snippet (which didn't work because the folder wasn't there anymore)
 
 ## Next steps:
-    - Research quick start guide on markdown language and tags
-    - Transfer existing, hand-written reading notes to appropriate new folder / document
-    - Capture highlights from handwritten course notes on here.
+
+- Research quick start guide on markdown language and tags
+- Transfer existing, hand-written reading notes to appropriate new folder / document
+- Capture highlights from handwritten course notes on here.
 
 ## More worflow
+
 - Initial Repository setup
     - Create nre project and initialize a repository 
         - `mkdir my-new-project`
