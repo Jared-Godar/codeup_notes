@@ -137,4 +137,87 @@
 	- Good decision can end badly
 	- Undsound decision may pay off in the short term
 	- *But probability always triumphs in the end.*
-	
+
+	## Chapter 5 1/2
+	### The Monty Hall Problem
+
+	- Famous probability problem from *Let's Make a Deal*
+	- Contestant Choose Door 1, Door 2, or Door 3
+		- After selecting door, host opens one other door revealing no prize
+		- Ask contestant if they want to switch doors
+	- Correct answer is switching doors:
+		- Currently 1/3 chance of victory
+		- 2/3 chance to win if switches
+	- Counterintuitive. Host knows what is behind all doors. By switching after, contestant gets to pick 2 doors instead of one. 
+	- Gut instincts on probability can lead you astray
+
+	## Chapter 6: Problems with Probability
+	### How overconfident math geeks nearly destroyed the global financial system
+
+	- **Statistics cannot be any smater than the people who use them**
+	- **VaR** Value at Risk Model
+		- Theoretically combined the elegance of an indicator with the power of probility
+		- Assumed range of possible outcomes: share go up or down
+			- Over one week - expected to be similar, smaller chance raise / fall 10%, even smaller chance 25% delta, etc.
+			- Based on past performance, quants assigned threshold for max value lost on a position over time period with 99% CI
+		- Can determine the risk fir individual traders as well as the aggregate risk of the firm
+		- Blamed for the onset and severity of the financial crisis in 2008
+		- Underlying risk, more challenging to identify and model
+			- False precision lead to a false sense of security
+			- Analagous to a broken spedometer (which could be worse than no spedometer at all)
+		- All models based on past market data
+		- But future doesn't always look like the past
+		- No real reason to assume market from 1980-2005 would be perfect indicator of 2005 onward
+		- Models assigned 0% peobability to large declines in housing prices - never happened before
+		- Greenspan:
+		>"The whole intellectual edifice, however, collapped in the summer [of 2007] because the data input into the risk management models generally covered only hte past two decades, a period of euphoria. Had instead the models been fitted more appropriately to historic periods of stress, capital requirements would have been much higher and the financial world would be in far better shape, in my judgement."
+		- 99 out of 100: Models didn't say how much over or how bad the 1% case could be
+		- Tail risk... Small percentage of catastrophic outcome
+		
+		### Fundamental Errors
+		
+		1. Confused precision with accuracy (Exact and wrong)
+		2. Estimates of the underlying probabilities were wrong.
+		3. Neglect of "tail risk." Failed to define or limit range of possibilities in that 1% case
+
+		### Results
+		- Worst global financial crisis since the Great Depression
+		- Destroyed Trillions of dolars of wealth in US
+		- Unemployment > 10%
+		- Waves of home foreclosures and business failures
+
+## Common issues
+
+### Assuming events are independent when they are not
+
+- Two fair coin heads 1/2 * 1/2 = 1/4
+- One jet engine malfunctioning 1/100,000
+	- Both engines (1/100,000)^2? or 1: 10 billion?
+		- **NO**
+		- Flock of geese hit both engines
+		- Weather conditions contribute to failure
+		- Maintenance issue
+		- Design flaw
+		- If one fails, p(other fail) >>> 1:100,000
+- Example
+	- SIDS: Sudden infant death syndrome
+	- Medical mystery. Poorly understood
+		- Led to suspiction
+		- Sometimes used to cover-up parental negligence or abuse
+	- British prosecutors and courts focused on multiple instances of SIDS
+		- "One infant death is a tragedy, two are suspicious, and three are murder
+		- 1:8,500 incidence 2 x (1/8500)^2= 1 in 73 million
+		- Flaw assumes events random and not linked b some unknown factor
+### Not understanding when events **ARE** independent
+
+- Different error occurs when events are independent, but not treated as such.
+- Casino. "Due" or "Hot"
+- Gamblers Fallacy. Even if you flip heads 1,000,000 times in a row, p(H) next flip still = 0.5
+- Notion of streaks in sports. "Hot hand" 
+	- Rigorous analysis shows *no evidence for a positive correlation between the outcomes of successive shots*
+
+### Clusters Happen
+
+- Can be pure chance even with multiple, simultaneous, unprobably events
+- Probability of five people at the same office or church contracting the same rare form of Leukemia may ne onn in a million, but there are millions of offices and churches. 
+- WHen anomolous events are viewed out of context, its easy to assume that something other than randomness must be responsible
