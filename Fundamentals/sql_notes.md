@@ -31,9 +31,9 @@
 - **DB Management System:**
 - **Types of Data stored in SQL server:**
 - **How do we use SQL:**
-- *****
 
-![Data_Image](data_flow.png)
+
+![Data Image](data_flow.png)
 
 - Cloud big
     - Amazon
@@ -81,3 +81,244 @@
 - Setup new local and remote repositoty for `database-exercises`
 - Save queries as mysql_queries
     - File, save query, pull up dialogue box to save in appropriate path
+
+- Can execute queries from terminal
+    - Reults are not user friendly
+    - If wiritg a script that needs info from sql search, machine readable from the terminal; But shows why GUI used. 
+
+## Databse v. Schema 
+
+- Often used interchangeably
+- Some RDMBs use schema as a second level of organization *within* a databse; Separate partitions
+- Within MySQL "database" and "schema" use the same thing and can be used interchangably
+- Words like `SELECT`, `INSERT`, `CREATE` are reserved words in MySQL and cannot be used for database, table, or column names
+- Expanded list of [reserved names](https://dev.mysql.com/doc/refman/5.7/en/keywords.html)
+
+
+![Database vs Schema](database-vs-schema.png)
+
+-----
+
+## Tables
+
+- Look like a spreadsheet
+- Break data down into columns and rows
+- DBA / Engineer difines what the columns are named and what kind of data can be contained
+
+### Data Types
+
+- **NUMERIC**
+- `INT` Integer. Any nymber *without* a decimal point. 
+    - `UNSIGNED` integers can only be positive
+- `FLOAT` Number *with* decimal value. Only holds about 7 decimal
+    - `DOUBLE` increases precision
+- `DECIMAL (length, precision)` Often used for currency. *Precise* decimal number
+- `TINYINT [BOOLEAN]`
+    -  0 false, 1 true; 
+    - -128 to 127 
+
+**TEXT**
+
+- `CHAR(LENGTH)` specified number of characters; will pad
+- `VARCHAR(LENGTH)` doesn't pad with extra space
+- `TEXT` Can be anytihng. But slow with big databases. Not used too often.
+- `DATE`
+- `TIME`
+- `DATETIME`
+    - Built-in features and functions for comparing different times
+- `NULL` behaves like 0; Actually the absence of a value
+    - If there is an optonal column rarely used, can be set up as null
+
+
+## Creating Tables 
+
+**Generic**
+
+    CREATE TABLE table_name (
+    column1_name data_type,
+    column2_name data_type,
+    ...
+    );
+
+**Example**
+
+    CREATE TABLE quotes (
+    author_first_name VARCHAR(50),
+    author_last_name  VARCHAR(100) NOT NULL,
+    content TEXT NOT NULL
+    );
+
+Want a primary Key, Quotes above - nothing preventing duplicate values
+- Below, how to set it up properly
+- Reasonable to let database server manage your primary key values
+
+    CREATE TABLE quotes (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    author_first_name VARCHAR(50),
+    author_last_name  VARCHAR(100) NOT NULL,
+    content TEXT NOT NULL,
+    PRIMARY KEY (id)
+    );
+
+- Common to see the primary key named with the name of the table as well, `quote_id` could work for primary key name
+- Database table names may be singular instead of plural pr written in ALL CAPS
+
+## Relational Database
+
+- Tables related in some way
+- Same database
+    - Customer Table
+    - Agent Table
+    - Customers have agents assigned by agent_id_number in customer table
+
+### Star Schema
+
+- Table comprised of only keys from other tables
+- 
+
+## Table commands
+
+>`SHOW TABLES;` Shows tables inside a database
+>`DESCRIBE quotes;`
+
+    +-------------------+------------------+------+-----+---------+----------------+
+| Field             | Type             | Null | Key | Default | Extra          |
++-------------------+------------------+------+-----+---------+----------------+
+| id                | int(10) unsigned | NO   | PRI | NULL    | auto_increment |
+| author_first_name | varchar(50)      | YES  |     | NULL    |                |
+| author_last_name  | varchar(100)     | NO   |     | NULL    |                |
+| content           | text             | NO   |     | NULL    |                |
++-------------------+------------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+>`SHOW CREATE TABLE quotes;`
+    *************************** 1. row ***************************
+        Table: quotes
+Create Table: CREATE TABLE `quotes` (
+    'id' int(10) unsigned NOT NULL AUTO_INCREMENT,
+    'author_first_name' varchar(50) DEFAULT NULL,
+    'author_last_name' varchar(100) NOT NULL,
+    'content' text NOT NULL,
+    PRIMARY KEY ('id')
+)
+1 row in set (0.00 sec)
+
+### Comments
+- `-- comment` Double Dash space 
+
+## Basic Statements
+
+- Use `SELECT` statement to **read** data/
+- Use `DISTINCT` and `WHERE` clauses to filter
+- Understand MySQL operators
+
+---
+
+- So far been looking at the *structure* of databases.
+- Now, looking at *data*
+
+- **CRUD* operations: "Create, Read, Update, Delete."
+    - Basic building block for working with data in any system
+        - Database
+        - Web API
+        - Cache server
+
+### SQL Quotes
+
+- All strings enclosed in single quote (`'`) SQL standard
+    - Some versions of MySQL allow `"` but will stick with single
+- To type a single quote in a string use `\'` or two single quotes in a row `''`.
+
+### Comments
+
+- `#` or `--` can preceed single-line comments
+- `/* Works for multiple line comments */`
+
+    /*
+    Comment
+    comment
+    still commenting
+    */
+
+### Select Statement
+
+Use `SELECT` to find and return rows from a given column or columns
+
+>`-- The square brackets indicate optional parts of the command.`
+>`SELECT column1[, column2[, ...]] FROM table_name;`
+
+To select the fruits and their quantity in our fruits database, we would write
+
+>`USE fruits_db;`
+>
+>`SELECT`
+>    `name,`
+>    `quantity`
+>`FROM fruits;`
+
+If we want to retrieve all of the available columns from a database table, we can use the wildcard `*`.
+
+>`SELECT * FROM fruits;`
+
+### Select Distinct statement
+
+Adding the `DISTINCT` keyword to our `SELECT` statement; this will eliminate duplicate values from our output
+
+>`SELECT DISTINCT column1`
+>`FROM table_name;`
+
+### Where Clause
+
+`WHERE` allows you to specify a condition that must be true for a given row to be displayed. The basic syntax looks like:
+
+>`SELECT column1, column2, ...`
+>`FROM table_name`
+>`WHERE column_name = 'value';`
+
+For example, if we just wanted to view the dragonfruit record, we could write:
+
+>`SELECT * `
+>`FROM fruits `
+>`WHERE name = 'dragonfruit';`
+
+Also remember, the guaranteed fastest and most precise way to find a single record in a table is to use the table's primary key because it is by nature a unique value:
+
+>`SELECT * `
+>`FROM fruits `
+>`WHERE id = 5;`
+
+### Operators
+
+| Operator | Description |
+|:----------:|-------------|
+| `=` | Equal |
+| `!=` or `<>` | Not equal |
+| `<` | Less than |
+| `>` | Greater than |
+| `<=` | Less than or equal to |
+| `>=` | Greater than or equal to |
+| `BETWEEN value1 AND value2` | Greater than or equal to value1 and less than or equal to value2 |
+
+### Miscellaneous Output
+
+Sometimes it may be useful to output arbitrary data from our SQL scripts. We can do this by selecting an arbitrary string and giving it a name like so:
+
+>`SELECT 'I am output!' AS Info;`
+
+### Aliaes
+
+Aliases allow us to temporarily rename a column, table, or miscellaneous pieces of our query. If the alias name contains spaces, you must enclose the 'alias name' in quotes. Otherwise, quotes are not needed around your alias_name. It is fine to use spaces in a column alias, *but it is not good practice to use spaces in a table alias*.
+
+Below is a simple example of using an alias in a `SELECT` statement with the `AS` keyword:
+
+>`SELECT 1 + 1 AS two;`
+
+For example, if we wanted to view the rows in the fruits table where our inventory is low, we might write a query like the following:
+
+    SELECT 
+        id,
+        name AS low_quantity_fruit,
+        quantity AS inventory
+    FROM fruits
+    WHERE quantity < 4;
+
