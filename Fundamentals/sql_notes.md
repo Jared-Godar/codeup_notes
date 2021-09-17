@@ -267,6 +267,22 @@ Adding the `DISTINCT` keyword to our `SELECT` statement; this will eliminate dup
 >`SELECT DISTINCT column1`
 >`FROM table_name;`
 
+- Can only use once
+
+>`SELECT DISTINCT *`
+with unique primary key, still gives you everything
+
+
+
+If you just want to see a certain number of records you can add
+
+>`LIMIT n` where n = number of records
+>`LIMIT 5`
+
+- SQL doesn't care about lines or spaces or tabs, but format for readability / break things up
+
+- 
+
 ### Where Clause
 
 `WHERE` allows you to specify a condition that must be true for a given row to be displayed. The basic syntax looks like:
@@ -275,11 +291,20 @@ Adding the `DISTINCT` keyword to our `SELECT` statement; this will eliminate dup
 >`FROM table_name`
 >`WHERE column_name = 'value';`
 
+
+
 For example, if we just wanted to view the dragonfruit record, we could write:
 
 >`SELECT * `
 >`FROM fruits `
 >`WHERE name = 'dragonfruit';`
+
+MySQL string search not case sensitive `Apple` = `apple`
+
+Can use combinations
+
+    `WHERE name = 'apple'
+        AND quantity =3;
 
 Also remember, the guaranteed fastest and most precise way to find a single record in a table is to use the table's primary key because it is by nature a unique value:
 
@@ -305,9 +330,21 @@ Sometimes it may be useful to output arbitrary data from our SQL scripts. We can
 
 >`SELECT 'I am output!' AS Info;`
 
+>`SELECT 1+1` returns 2
+>`SELECT 3=3` return 1 (boolean true)
+>`SELECT 2>3` return 0 (boolean false)
+
 ### Aliaes
 
-Aliases allow us to temporarily rename a column, table, or miscellaneous pieces of our query. If the alias name contains spaces, you must enclose the 'alias name' in quotes. Otherwise, quotes are not needed around your alias_name. It is fine to use spaces in a column alias, *but it is not good practice to use spaces in a table alias*.
+- Aliases allow us to temporarily rename a column, table, or miscellaneous pieces of our query. 
+- If the alias name contains spaces, you must enclose the 'alias name' in quotes. 
+    - Otherwise, quotes are not needed around your alias_name. 
+    - It is fine to use spaces in a column alias, 
+    *but it is not good practice to use spaces in a table alias*.
+
+- Using aliases can serve as commenting or remind you why you were doing a particular search
+
+
 
 Below is a simple example of using an alias in a `SELECT` statement with the `AS` keyword:
 
