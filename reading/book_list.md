@@ -17,4 +17,9 @@
 - Python for data science. Mueller, John (Library Hold Requested)
 - The Drunkards Walk. Mlodinow, Leonard (Library Hold Requested)s
 - Black Swan. Nicholas Taleb.
-- 
+- New Challenges for Data Sesign. David Bihanic
+- Graphic Design For Architects: A Manual for Visual Communication. Karen Lewis
+- Communication Design: Insights from the Creative Insustries. Derek Yates
+- Information Graphics. Sandra Rendgen.
+- Graphic Design: Now in Production. Ian Albinson, Giampetro, Leslie, et. al.
+- Data Flow 2: Visualizing Information in Graphic Design. Rpbert Klanten

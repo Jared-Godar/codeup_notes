@@ -91,3 +91,16 @@
     - `git config --global core.excludesfile ~/.gitignore_global`
 
 
+## Recap / Questions
+
+- Github: portfolio; employers will likely look at it; should be a messy work in progress; want sea of green commits
+    - Bio
+    - Headshots
+    - Repositories: Hald baked projects fine
+    - Embedded images &  markdown for Github Bio (images in same repo)
+        - [Catilin Carney](https://github.com/CaitlynCarney)
+        - [HEather_McMIllan](https://github.com/HeatherOrtegaMcMillan)
+
+- Github first
+- Make it on github.com/new
+- `git clone <address>`
