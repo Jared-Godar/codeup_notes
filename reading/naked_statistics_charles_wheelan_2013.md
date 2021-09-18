@@ -2,8 +2,8 @@
 ## Stripping the dread from the data
 ### Charles Wheelan
 	
-	- **Checked out:** 08SEP21
-	- **Finished reading:**
+- **Checked out:** 08SEP21
+- **Finished reading:**
 
 ## Chapter 1: What's the point?
 
@@ -13,7 +13,7 @@
 
 - **Inference:** relies on sampling; small sampkes can provide great, accurate numbers, but subject to bias and error.
 
-###Risk and probability
+### Risk and probability
 
 - Detective work identify relationships
 
@@ -103,7 +103,7 @@
 		- Penn State was consistently rated in the middle *despite the fact that Penn State did not have a law school at the time*
 
 ---
-**Summary**
+### Summary
 - Statistical malfeasance has little to do with bad math.
 - Impressive calculations can obscure nefarious motives
 - The fact that you've calculated the mean correctly will not alter the fact that the median is a more accurate indicator (or the other way around)
@@ -151,40 +151,39 @@
 	- Counterintuitive. Host knows what is behind all doors. By switching after, contestant gets to pick 2 doors instead of one. 
 	- Gut instincts on probability can lead you astray
 
-	## Chapter 6: Problems with Probability
-	### How overconfident math geeks nearly destroyed the global financial system
+## Chapter 6: Problems with Probability
+### How overconfident math geeks nearly destroyed the global financial system
 
-	- **Statistics cannot be any smater than the people who use them**
-	- **VaR** Value at Risk Model
-		- Theoretically combined the elegance of an indicator with the power of probility
-		- Assumed range of possible outcomes: share go up or down
-			- Over one week - expected to be similar, smaller chance raise / fall 10%, even smaller chance 25% delta, etc.
-			- Based on past performance, quants assigned threshold for max value lost on a position over time period with 99% CI
-		- Can determine the risk fir individual traders as well as the aggregate risk of the firm
-		- Blamed for the onset and severity of the financial crisis in 2008
-		- Underlying risk, more challenging to identify and model
-			- False precision lead to a false sense of security
-			- Analagous to a broken spedometer (which could be worse than no spedometer at all)
-		- All models based on past market data
-		- But future doesn't always look like the past
-		- No real reason to assume market from 1980-2005 would be perfect indicator of 2005 onward
-		- Models assigned 0% peobability to large declines in housing prices - never happened before
-		- Greenspan:
-		>"The whole intellectual edifice, however, collapped in the summer [of 2007] because the data input into the risk management models generally covered only hte past two decades, a period of euphoria. Had instead the models been fitted more appropriately to historic periods of stress, capital requirements would have been much higher and the financial world would be in far better shape, in my judgement."
-		- 99 out of 100: Models didn't say how much over or how bad the 1% case could be
-		- Tail risk... Small percentage of catastrophic outcome
+- **Statistics cannot be any smater than the people who use them**
+- **VaR** Value at Risk Model
+	- Theoretically combined the elegance of an indicator with the power of probility
+	- Assumed range of possible outcomes: share go up or down		- Over one week - expected to be similar, smaller chance raise / fall 10%, even smaller chance 25% delta, etc.
+	- Based on past performance, quants assigned threshold for max value lost on a position over time period with 99% CI
+	- Can determine the risk for individual traders as well as the aggregate risk of the firm
+	- Blamed for the onset and severity of the financial crisis in 2008
+	- Underlying risk, more challenging to identify and model
+		- False precision lead to a false sense of security
+		- Analagous to a broken spedometer (which could be worse than no spedometer at all)
+	- All models based on past market data
+	- But future doesn't always look like the past
+	- No real reason to assume market from 1980-2005 would be perfect indicator of 2005 onward
+	- Models assigned 0% peobability to large declines in housing prices - never happened before
+	- Greenspan:
+	>"The whole intellectual edifice, however, collapped in the summer [of 2007] because the data input into the risk management models generally covered only hte past two decades, a period of euphoria. Had instead the models been fitted more appropriately to historic periods of stress, capital requirements would have been much higher and the financial world would be in far better shape, in my judgement."
+	- 99 out of 100: Models didn't say how much over or how bad the 1% case could be
+	- Tail risk... Small percentage of catastrophic outcome
 		
-		### Fundamental Errors
-		
-		1. Confused precision with accuracy (Exact and wrong)
-		2. Estimates of the underlying probabilities were wrong.
-		3. Neglect of "tail risk." Failed to define or limit range of possibilities in that 1% case
+### Fundamental Errors		
 
-		### Results
-		- Worst global financial crisis since the Great Depression
-		- Destroyed Trillions of dolars of wealth in US
-		- Unemployment > 10%
-		- Waves of home foreclosures and business failures
+1. Confused precision with accuracy (Exact and wrong)
+2. Estimates of the underlying probabilities were wrong.
+3. Neglect of "tail risk." Failed to define or limit range of possibilities in that 1% case
+
+### Results
+- Worst global financial crisis since the Great Depression
+- Destroyed Trillions of dolars of wealth in US
+- Unemployment > 10%
+- Waves of home foreclosures and business failures
 
 ## Common issues
 
@@ -221,3 +220,48 @@
 - Can be pure chance even with multiple, simultaneous, unprobably events
 - Probability of five people at the same office or church contracting the same rare form of Leukemia may ne onn in a million, but there are millions of offices and churches. 
 - WHen anomolous events are viewed out of context, its easy to assume that something other than randomness must be responsible
+
+### Prosecutor's fallacy
+
+1. DNA sample found a the scene of a crime matches a sample taken from the defendant.
+2. There is only a 1:1,000,000 chance it can match anyone else.
+
+Neglects context.
+- *Defendant 1:* Spurned lover arrested three blocks away carrying murder weapon
+- *Defendant 2*: Convicted of similar crime in a different state several years ago; in a database of violent felons
+
+*The chances of finding a one in a million coincidental match are relatiely high if you compare a sample to a database with millions of people*
+
+### Regression to the mean
+
+*Sports Illustrated* jinx: Individuals or organizations featured perform worse after being featured on the cover.
+
+More statistuacally sound reasoning: featuref after some anomolously good stretch (20 game winning streak) then furure performance reverts back to the normal, mean.
+
+Outliers in either direction likely to be followed with outcomes more consistent with the long-term average
+
+Performance consists of some underlying talent-related effort plus a degree of luck, good or bad.
+
+### Statistical Determination
+
+When is it okay to act on what parobability tells us is likely to happen?
+
+European regulators decided insurers can't charge men and women different rates based on sex - discriminatory. 
+
+Statisticallyk men more likely to crash - women pay more for annuities because they live longer on average.
+
+Predictive models leading to profiling. 
+
+What can and should we do with this kind of information becames a philosophical and legal question, not a statistical one. Is it okay to discriminate if the data tell us us we'll be right far more often than wrong? 
+	- People who who buy birdseed less likely to default on credit cards
+
+Our ability to analyze data has grown more sphohisticated than our thinking about what we ought to do with the results. 
+
+Like to think of numbers as "cold, hard facts"; calculations can give us the *right* answer 
+
+**For all the elegance and precision of probablility, there is no substitute for thinking about what calculations 
+
+## Chapter 7: The Importance of Data
+### Garbage in Garbage Out
+
+
