@@ -29,6 +29,10 @@
 
 [Git](https://git-scm.com/)
 
+[GitHub Hello World](https://guides.github.com/activities/hello-world/)
+
+
+
 [Git Config](https://git-scm.com/docs/git-config#_variables)
 
 [Good MD formatted profile](https://github.com/CaitlynCarney)
@@ -51,4 +55,27 @@
 [Wyrmix.com](https://www.wyrmix.com/about)
     - Alexander Melton; Founder; IOT / Phygital / Creative Computing
 
+
+## Design
+
+[Working ~~working~~](https://workingnotworking.com/)
+
+[Feltron](http://feltron.com/)
+
+
+
+
+## Misc
+
+[Houston Public Library Login](https://halan.sdp.sirsi.net/)
+
+
+
+## Jobs
+
+[USA Jobs Data Science](https://www.usajobs.gov/careerfields/data-science/)
+
+## DS Socials
+
+[CodeUp Podcast](https://codeup.com/podcast/)
 
