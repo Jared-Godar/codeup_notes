@@ -45,6 +45,10 @@
 
 [SQL Exercises](https://www.hackerrank.com/domains/sql)
 
+[MySQL Expression Syntax](https://dev.mysql.com/doc/refman/5.7/en/expressions.html)
+
+
+
 ## Mac / PC Stuff
 
 [Windows Keyboards](https://support.microsoft.com/en-us/topic/keyboard-mappings-using-a-pc-keyboard-on-a-macintosh-d4fd87ca-8762-30ee-fcde-08ffe95faea3)

@@ -359,3 +359,157 @@ For example, if we wanted to view the rows in the fruits table where our invento
     FROM fruits
     WHERE quantity < 4;
 
+
+-----
+## 20SEP21
+
+## Clauses
+
+### Where
+
+The WHERE clause, if given, indicates the condition or conditions that rows must satisfy to be selected. The `WHERE` condition is an expression that evaluates to true for each row to be selected. The statement selects all rows if there is no `WHERE` clause.
+
+>SELECT * FROM  employees WHERE hire_date = '1985-01-01'
+
+We can use `WHERE` with the `LIKE` option to find similarities. The % are wildcards.
+
+This query will select all first names with the letters combination 'sus':
+
+    SELECT first_name
+    FROM employees
+    WHERE first_name LIKE '%sus%';
+
+While not a part of the `WHERE` clause, it is worth mentioning that we can add the `DISTINCT` keyword to our `SELECT` statement to only get non-repeating values.
+
+    SELECT DISTINCT first_name
+    FROM employees
+    WHERE first_name LIKE '%sus%';
+
+We can use `WHERE` with `BETWEEN` to find specific ranges of values.
+To find all the employees between employee number 10026 and 10082:
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE emp_no BETWEEN 10026 AND 10082;
+
+We can use `WHERE` with `IN` to query only very specific sets of values. The () are required when you use `IN`.
+
+To find all the employees with the last name of 'Herber', 'Dredge', 'Lipner', and 'Baek':
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE last_name IN ('Herber', 'Dredge', 'Lipner', 'Baek');
+
+We can also use comparison operators.
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE last_name = 'Baek';
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE emp_no < 10026;
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE emp_no <= 10026;
+
+We can also use `IS NULL` and `IS NOT NULL` to see if a value is `NULL` or not.
+
+    SELECT emp_no, title
+    FROM titles
+    WHERE to_date IS NOT NULL;
+
+## Chaining WHERE clauses
+
+We can chain together an `IN` clause with a `LIKE` clause, or any of the clauses, using `AND` and `OR`.
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE last_name IN ('Herber','Baek')
+        AND emp_no < 20000;
+
+The important thing is that we can chain as many of these as we please together, but it can get messy very quickly.
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE emp_no < 20000
+        AND last_name IN ('Herber','Baek')
+        OR first_name = 'Shridhar';
+
+We can force evaluation grouping using ().
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE emp_no < 20000
+        AND (
+            last_name IN ('Herber','Baek')
+        OR first_name = 'Shridhar'
+    );
+
+### Further Reading
+
+- [MySQL Expression Syntax](https://dev.mysql.com/doc/refman/5.7/en/expressions.html)
+
+## Order By
+
+Queries with a ORDER BY clause normally follow this form:
+
+    SELECT column FROM table ORDER BY column_name [ASC|DESC];
+
+Columns selected for output can be referred to in ORDER BY and GROUP BY clauses using column names, column aliases, or column positions. Column positions are integers and begin with 1.
+
+    SELECT first_name, last_name
+    FROM employees
+    ORDER BY last_name;
+
+To sort in reverse order, add the DESC (descending) keyword to the name of the column in the ORDER BY clause that you are sorting by.
+
+    SELECT first_name, last_name
+    FROM employees
+    ORDER BY last_name DESC;
+
+The default is ascending order; this can be specified explicitly using the ASC keyword.
+
+    SELECT first_name, last_name
+    FROM employees
+    ORDER BY last_name ASC;
+
+### Chaining `ORDER BY` Clauses
+
+The ORDER BY clause also allows you to chain together column names, column aliases, or column positions.
+
+    SELECT first_name, last_name
+    FROM employees
+    ORDER BY last_name DESC, first_name ASC;
+
+### Exercise
+
+## LIMIT
+
+Get query results using `LIMIT` clause
+
+Generally, a query with a LIMIT clause follows this form:
+
+    SELECT columns FROM table LIMIT count [OFFSET count];
+
+The simplest use of the `LIMIT` clause just specifies a number after the keyword.
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE first_name LIKE 'M%'
+    LIMIT 10;
+
+Adding an `OFFSET` tells MySQL which row to start with.
+
+    SELECT emp_no, first_name, last_name
+    FROM employees
+    WHERE first_name LIKE 'M%'
+    LIMIT 25 OFFSET 50;
+
+`LIMIT` and `OFFSET` are commonly used for pagination, or creating pages of data.
+
+The above query asks for the employee number, first name, and last name, where the first name starts with an 'M'. The results are offset by fifty and will start at the fifty-first record, limiting the results to twenty-five records.
+
+### Exercises
+
