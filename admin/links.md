@@ -45,7 +45,13 @@
 
 [SQL Exercises](https://www.hackerrank.com/domains/sql)
 
+[Make a GitHub repository for Hacker Rank Exercises](https://docs.google.com/document/d/1t5WfGbXrOnaEMZloytBbLvvlwj6IOGOWPyxu-k_ugaw/edit)
+
+
 [MySQL Expression Syntax](https://dev.mysql.com/doc/refman/5.7/en/expressions.html)
+
+[mySQL Workbench Download](https://www.mysql.com/products/workbench/)
+
 
 
 
