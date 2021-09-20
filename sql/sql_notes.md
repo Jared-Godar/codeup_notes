@@ -7,8 +7,8 @@
     - Pushing to git dialy. 
     - New repository today for SQL; will be making new repositories about once a week
 - Grading
-    - Pushing every clas day to github
-    - Weekly, will look and see if pushes were made every class day
+    - Pushing every class day to GitHub
+    - Weekly, the instructors will look and see if we made pushes every class day
     - Important, measured for accountability
 
 - Starting to write the same type of code we will likely be using every day in DS career
@@ -21,13 +21,13 @@
         - Website
         - App
         - Manual
-- **Database:** location of data stored on a disk somewhere; information held there; sometimes used interchangably with DBMS, but that is the sofrware
+- **Database:** location of data stored on a disk somewhere; information held there; sometimes used interchangeably with DBMS, but that is the software
 - **Client:** Program using to connect to database
     - GUIs common
     - CLIs available also
 - **SERVER** computer that runs and stores 
-- **Data definition language:** defines structure of database
-- **Data Manipulation Language:** Language used to insert, updaet, delete, access information stored in database - where we will be doing most of the interaction
+- **Data definition language:** defines the structure of the database
+- **Data Manipulation Language:** Language used to insert, update, delete, access information stored in the database - where we will be doing most of the interaction
 - **DB Management System:**
 - **Types of Data stored in SQL server:**
 - **How do we use SQL:**
@@ -45,19 +45,19 @@
 - Terminal/Command Line
 - GUI
 - Main language for most databases
-- Couple other options,, but language mostly similar with slight differences
+- Couple of other options, but the languages are mostly similar with slight differences
 
 ## Table Anatomy
 
 - Similar to Excel 
 - **Column Name:**
 - **Record:** Single row; all the information about one entry in a table
-- **Key:** Unique identifier for each record; each table has a field that must be unique; can be alphaneumeric or string, best practice use a number
+- **Key:** Unique identifier for each record; each table has a field that must be unique; can be alphanumeric or string, best practice use a number
 - **Field:** Columns
 - **Value** information in a cell
 
-- Isn't a way to just look at the whole thing like a spreadsheet; no reason to; resource intensive
-- Instead, quety specific values  
+- Isn't a way to just look at the whole thing like a spreadsheet; no reason to; resource-intensive
+- Instead, query specific values  
 
 - **Table Info** more engineering information, gives create syntax
 - **Content** Shows first thousand lines of data - gives you an idea of what is being stored
@@ -78,19 +78,19 @@
 
 ## Curriculum Exercises
 
-- Setup new local and remote repositoty for `database-exercises`
+- Setup new local and remote repository for `database-exercises`
 - Save queries as mysql_queries
-    - File, save query, pull up dialogue box to save in appropriate path
+    - File, save query, pull up dialogue box to save in the appropriate path
 
 - Can execute queries from terminal
-    - Reults are not user friendly
-    - If wiritg a script that needs info from sql search, machine readable from the terminal; But shows why GUI used. 
+    - Results are not user friendly
+    - If writing a script that needs info from SQL search, machine-readable from the terminal; But shows why GUI is used. 
 
-## Databse v. Schema 
+## Database v. Schema 
 
 - Often used interchangeably
-- Some RDMBs use schema as a second level of organization *within* a databse; Separate partitions
-- Within MySQL "database" and "schema" use the same thing and can be used interchangably
+- Some RDMBs use schema as a second level of organization *within* a database; Separate partitions
+- Within MySQL, "database" and "schema" use the same thing and can be used interchangeably
 - Words like `SELECT`, `INSERT`, `CREATE` are reserved words in MySQL and cannot be used for database, table, or column names
 - Expanded list of [reserved names](https://dev.mysql.com/doc/refman/5.7/en/keywords.html)
 
@@ -103,7 +103,7 @@
 
 - Look like a spreadsheet
 - Break data down into columns and rows
-- DBA / Engineer difines what the columns are named and what kind of data can be contained
+- DBA / Engineer defines what the columns are named and what kind of data can be contained
 
 ### Data Types
 
@@ -121,13 +121,13 @@
 
 - `CHAR(LENGTH)` specified number of characters; will pad
 - `VARCHAR(LENGTH)` doesn't pad with extra space
-- `TEXT` Can be anytihng. But slow with big databases. Not used too often.
+- `TEXT` Can be anything. But slow with big databases. Not used too often.
 - `DATE`
 - `TIME`
 - `DATETIME`
     - Built-in features and functions for comparing different times
-- `NULL` behaves like 0; Actually the absence of a value
-    - If there is an optonal column rarely used, can be set up as null
+- `NULL` behaves like 0; Actually, the absence of a value
+    - If there is an optional column rarely used, it can be set up as null
 
 
 ## Creating Tables 
@@ -150,7 +150,7 @@
 
 Want a primary Key, Quotes above - nothing preventing duplicate values
 - Below, how to set it up properly
-- Reasonable to let database server manage your primary key values
+- Reasonable to let the database server manage your primary key values
 
     CREATE TABLE quotes (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -160,7 +160,7 @@ Want a primary Key, Quotes above - nothing preventing duplicate values
     PRIMARY KEY (id)
     );
 
-- Common to see the primary key named with the name of the table as well, `quote_id` could work for primary key name
+- Common to see the primary key named with the name of the table as well, `quote_id` could work for the primary key name
 - Database table names may be singular instead of plural pr written in ALL CAPS
 
 ## Relational Database
@@ -169,7 +169,7 @@ Want a primary Key, Quotes above - nothing preventing duplicate values
 - Same database
     - Customer Table
     - Agent Table
-    - Customers have agents assigned by agent_id_number in customer table
+    - Customers have agents assigned by agent_id_number in the customer table
 
 ### Star Schema
 
@@ -231,7 +231,7 @@ Create Table: CREATE TABLE `quotes` (
 
 ### Comments
 
-- `#` or `--` can preceed single-line comments
+- `#` or `--` can preceded single-line comments
 - `/* Works for multiple line comments */`
 
     /*
@@ -242,12 +242,12 @@ Create Table: CREATE TABLE `quotes` (
 
 ### Select Statement
 
-Use `SELECT` to find and return rows from a given column or columns
+Use `SELECT` to find and return rows from a given column or columns.
 
 >`-- The square brackets indicate optional parts of the command.`
 >`SELECT column1[, column2[, ...]] FROM table_name;`
 
-To select the fruits and their quantity in our fruits database, we would write
+To select the fruits and their quantity in our fruits database, we would write.
 
 >`USE fruits_db;`
 >
@@ -262,7 +262,7 @@ If we want to retrieve all of the available columns from a database table, we ca
 
 ### Select Distinct statement
 
-Adding the `DISTINCT` keyword to our `SELECT` statement; this will eliminate duplicate values from our output
+Adding the `DISTINCT` keyword to our `SELECT` statement; this will eliminate duplicate values from our output.
 
 >`SELECT DISTINCT column1`
 >`FROM table_name;`
@@ -274,7 +274,7 @@ with unique primary key, still gives you everything
 
 
 
-If you just want to see a certain number of records you can add
+If you just want to see a certain number of records you can add.
 
 >`LIMIT n` where n = number of records
 >`LIMIT 5`
@@ -306,7 +306,7 @@ Can use combinations
     `WHERE name = 'apple'
         AND quantity =3;
 
-Also remember, the guaranteed fastest and most precise way to find a single record in a table is to use the table's primary key because it is by nature a unique value:
+Also, remember the guaranteed fastest and most precise way to find a single record in a table is to use the table's primary key because it is by nature a unique value:
 
 >`SELECT * `
 >`FROM fruits `

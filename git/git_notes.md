@@ -2,48 +2,48 @@
 
 - GIT: Distributed version control system. 
     - Free. 
-    - Open source. 
-    - Small to large ptojects.
+    - Open-source. 
+    - Small to large projects.
     - Distributed - lives on more than one computer
     - Version control (1.0, 2.0, etc) tracking changes to version
         - Crude: resume.pdf, resume1.pdf, resume2.pdf, redume_FINAL.pdf
-        - More sophisticated: track changes in google doc
+        - More sophisticated: track changes in a google doc
             - Which authors made what changes in what time
-            0 lacking - why change was made and if new users need to know anything else
+            - lacking - why the change was made and if new users need to know anything else
 
 
 ## VOCABULARY:
 
 - repository: directory managed by git; 
-- add: tell git which files we wish to look at for the nxt commit
-- commit: create a "save point" formal snapshot of a repositry.
-- push: copy state of a local repositry elsewhere; for our purposes, most commonly used to send
+- add: tell git which files we wish to look at for the next commit
+- commit: create a "save point" formal snapshot of a repository.
+- push: copy state of a local repository elsewhere; for our purposes, most commonly used to send
 
 - GIT 
     - Internally works like blockchain
-    - Tracks all changes to any line of code / text in any file we are tracking
-    - Permanent record with a timeline that has the ablilty to branch/- - navigate/merge parallel timelines
+    - Tracks all changes to any line of code/text in any file we are tracking
+    - Permanent record with a timeline that has the ability to branch/- - navigate/merge parallel timelines
 
-- WHen git is enabled, we enable on entire folder/directory. Including subfolders and all files. In specific scenrios - like passwords or other sensative files - we can tell to ignore specific files.
+- When git is enabled, we enable it on the entire folder/directory, including subfolders and all files. In specific scenarios - like passwords or other sensitive files - we can tell to ignore specific files.
 
 ## SO WHAT
 
 - Most interested in the permanent record part. Commits at good points - mess something up, can roll back.
- - Large trend in Data Science is adpoting methods, tools, and workflows that are extablished best practices in software engineering. 
-- DS practitionares uning SE workflows (new trent) a lot of your competition doesn't know / isnt using GIT, but employers are - competative edge
+ - Large trend in Data Science is adopting methods, tools, and workflows that are established best practices in software engineering. 
+- DS practitioners using SE workflows (new trend) a lot of your competition doesn't know/isn't using GIT, but employers are - a competitive edge
 - Tracking changes in analysis with hundreds/thousands of lines of code, much easier in git 
 
 ## NOW WHAT
    
 - Formal git curriculum
 - Turn regular directories into repositories
-- All repositories are foldwes, but not all forders are repositories
+- All repositories are folders, but not all folders are repositories
 - git runs on a computer (laptop, desktop, servers)
 - Doesn't automatically back up - our responsibility to back up. (GitHub makes this easy and cheap) - 
 - Codeup Git bill about $150 a month for all of codeup 
-- Push (upload) sends to GitHub in the cloud. Can use github as simple backup, or edit directly on github
-- Pull (download): brings most up to date github cloud back down to local (laptop) environment
-- Clone Copies the entire repository from cloud to local environment
+- Push (upload) sends to GitHub in the cloud. Can use GitHub as a simple backup, or edit directly on GitHub
+- Pull (download): brings most up to date GitHub cloud back down to local (laptop) environment
+- Clone Copies the entire repository from the cloud to the local environment
 
 ## Questions
 
@@ -51,23 +51,23 @@
     - I didn't, but I did
 - Cloned your notes repository into my notes folder
 - Git threw a warning
-- Tried to fix it by movimg your 'git_with_it' folder via finder
-- Then close reading of the error message, and tried to use their command line snippet (which didn't work because the folder wasn't there anymore)
+- Tried to fix it by moving your 'git_with_it' folder via finder
+- Then closed reading of the error message and tried to use their command-line snippet (which didn't work because the folder wasn't there anymore)
 
 ## Next steps:
 
 - Research quick start guide on markdown language and tags
-- Transfer existing, hand-written reading notes to appropriate new folder / document
+- Transfer existing, hand-written reading notes to appropriate new folder/document
 - Capture highlights from handwritten course notes on here.
 
-## More worflow
+## More workflow
 
 - Initial Repository setup
-    - Create nre project and initialize a repository 
+    - Create a new project and initialize a repository 
         - `mkdir my-new-project`
         - `cd my-new-project`
         - `git init`
-    - Create repository on Github and add the remote to your project
+    - Create a repository on Github and add the remote to your project
         - https://github.com/new
         - `git remote add origin REMOTE_URL`
         - Where `REMOTE_URL` is the URL obtained from Github after creating a repo.
@@ -83,17 +83,17 @@
     - `git config --global user.name "Your Name"`
     - `git config --global user.email you@example.com`
 - Global gitignore file
-    - Will tell git to ignore certain files system wide, in addition to any files found in a project-specific `.gitignore`
-- Never track .DS_Store files (autogenerated by Finder whenver a directory is opened)
+    - Will tell git to ignore certain files system-wide, in addition to any files found in a project-specific `.gitignore`
+- Never track .DS_Store files (autogenerated by Finder whenever a directory is opened)
 - The command below will create a file named `.gitignore_global` with a line in it that specifies `.DS_Store` files to be ignored
     - `echo '.DS_Store' >> ~/.`
-- Now we can tell git that we should use this file to globally ignore files.
+- Now, we can tell git that we should use this file to globally ignore files.
     - `git config --global core.excludesfile ~/.gitignore_global`
 
 
 ## Recap / Questions
 
-- Github: portfolio; employers will likely look at it; should be a messy work in progress; want sea of green commits
+- Github: portfolio; employers will likely look at it; should be a messy work in progress; want a sea of green commits
     - Bio
     - Headshots
     - Repositories: Hald baked projects fine
