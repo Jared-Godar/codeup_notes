@@ -52,7 +52,11 @@
 
 [mySQL Workbench Download](https://www.mysql.com/products/workbench/)
 
+[MySQL Official Docummentation](https://dev.mysql.com/doc/workbench/en/)
 
+[MySQL Official Site](https://www.mysql.com/)
+
+[MySQL Forum](https://forums.mysql.com/list.php?152)
 
 
 ## Mac / PC Stuff
