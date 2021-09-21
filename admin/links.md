@@ -16,6 +16,10 @@
 
 [Bret - ML Python](https://www.humblebundle.com/books/machine-learning-bookshelf-no-starch-press-books?hmb_source=&hmb_medium=product_tile&hmb_campaign=mosaic_section_1_layout_index_2_layout_type_threes_tile_index_2_c_computersciencedeeplearningnostarchpress_bookbundle)
 
+### VS Code
+
+[VS Code Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+
 
 ### Markdown
 

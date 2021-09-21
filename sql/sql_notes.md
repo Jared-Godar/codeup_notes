@@ -658,3 +658,89 @@ There is also an explicit `CAST` function should the need arise:
 
 ### Exercises
 
+## Group By
+
+Grouping results based on data in columns allows us to remove duplicates, much like using `DISTINCT`. We can also use `GROUP BY` in combination with *aggregate functions*.
+
+### Using the GROUP BY Clause
+
+We can also use multiple columns:
+
+***Group by no longer works like order by in SQL 8; Disregard some curriculum instructions***
+
+    SELECT last_name, first_name
+    FROM employees
+    GROUP BY last_name, first_name;
+
+`select * from employees where first_name = 'Georgi';` --253
+
+    SELECT first_name
+    FROM employees
+    GROUP BY first_name;
+
+    SELECT count(*) from employees where firrst_name = 'Georgi'
+
+    SELECT first_name, count(first_name)
+    FROM employees
+    group by first_name;
+
+    SELECT *
+        FROM titles
+        GROUP BY title;
+    
+    breaks * - need to select and group by the same thing
+
+    SELECT title
+        FROM titles
+        GROUP By
+
+If you see "group by" think "for each" title to make a row
+For each title, show the count
+
+    SELECT title, count(title)
+        FROM titles
+        GROUP BY title;
+
+    -- What's the average salary of each department?
+    SELECT dept_no, avg(salary), min(salary), max(salary)
+        FROM salaries
+    JOIN dept_emp USING(emp_no)
+    GROUP BY dept_no;
+
+Once grouped by. can add aggregate function which acts on each group.
+
+    SELECT AVG(salary)
+    
+    --WHats the historic average salary?
+     SELECT dept_no, avg(salary), min(salary), max(salary)
+        FROM salaries
+    JOIN dept_emp USING(emp_no)
+    WHERE salaries.to_date > curdate()
+    GROUP BY dept_no;
+
+    -- Show the nmber of duplocate fist names, but only show duplicates less than 200
+
+`HAVING` is like a `WHERE` clause for groupby
+
+    SELECT fitst_name, count(first_name) AS count_first_names
+    FROM employees
+    GROUP BY first_name
+    HAVING count_first_names < 200;
+
+Can use where before group by and in conjunction with hagin 
+
+    SELECT fitst_name, count(first_name) AS count_first_names
+    FROM employees
+    WHERE birth_date LIKE '%-12-25'
+    AND gender = 'F'
+    GROUP BY first_name
+    HAVING count_first_names < 200;
+
+Aliases work kind of like vairables - renaming
+
+    SELECT fitst_name, count(first_name) AS count_first_names
+    FROM employees
+    GROUP BY first_name
+    HAVING count_first_namesbetween 247 and 275
+
+can still ads wheres before
