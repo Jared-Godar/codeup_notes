@@ -221,5 +221,29 @@ The hard drive will die someday. You need a backup.
     - **Text-entry fields**
     - **Checkboxes**
 
-### Shuffling Windows
+---
+21SEP21
 
+### Shuffling Windows in finder
+
+- Window menu
+    - **Minimize:** (⌘+M) Minimize active finder window to the dock and unclutter desktop
+    - **Zoom** Same as green gumdrop button
+    - **Cycle through windows:** (⌘+`)
+- Tabed browsing of multiple folders or disks in single window
+    - Show Previous tab (Control+Shift+tab)
+    - Next Tab (Control + Tab)
+    - Move tab to new window
+    - Merge all windows
+    - Bring all to front
+
+### Menu basics
+
+*Menu items change unexpectedly* Menu bar menus always reflect the *active* program at the time. 
+
+*Contextual menus* or *shortcut menus* list commands that only apply to the item that is currently selected Control-click icons for menus (right click works too). Get on the habit of right clicking things to see what contectual menus appear. 
+
+Apple ,enu tree, far left
+About this mac, system preferences, app store, recent items, force quit, shutdown
+
+## Chapter 3: Whats Up, Dock?
