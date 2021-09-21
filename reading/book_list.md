@@ -23,3 +23,4 @@
 - Information Graphics. Sandra Rendgen.
 - Graphic Design: Now in Production. Ian Albinson, Giampetro, Leslie, et. al.
 - Data Flow 2: Visualizing Information in Graphic Design. Rpbert Klanten
+- Steal Like an Artist Austin Klyon (per Maggie Guist)

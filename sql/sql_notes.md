@@ -513,3 +513,148 @@ The above query asks for the employee number, first name, and last name, where t
 
 ### Exercises
 
+-----
+
+21SEP21 **TODAY:** SQL Functions + group by = keys to the castle of data
+
+
+## Functions
+
+- Compute or do things; Operate on data in tables.
+
+[Functions and Operators](https://dev.mysql.com/doc/refman/5.7/en/functions.html)
+
+[String Functions](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_concat)
+
+### CONCAT
+
+- The `CONCAT()` function takes in any number of strings or column names and will concatenate them all together.
+- Separate stings with commas
+
+>`SELECT CONCAT('Hello ', 'Codeup', '!');`
+
+Make a combined name as alias
+    USE employees;
+    SELECT CONCAT(first_name, " ", last_name) AS full_name
+    FROM employees
+    LIMIT 10;
+
+### Like / Not Like
+
+Use in `WHERE` queries with `%` as wildcard
+
+### SUBSTR
+
+We can extract part of a string with the `SUBSTR` function.
+
+>`SUBSTR(string, start_index, length)`
+
+We need to supply the string we wish to manipulate, the starting index, i.e., which character to start from, and the length, or the number of characters to extract.
+
+>`SELECT SUBSTR('abcdefg', 2, 4);`
+    bcde
+
+**String Indexes in MySQL** *In MySQL, the first character in a string is at index 1. This is notably different from other programming languages, like Python, where indexes start from 0.*
+
+### Case Conversion 
+
+We can use the `UPPER` and `LOWER` functions to convert to upper or lower case.
+
+>`SELECT UPPER('abcde'), LOWER('ABCDE');`
+
+### Replace
+
+The `REPLACE` function lets us manipulate strings by replacing substrings. The general form looks like this:
+
+>`REPLACE(subject, search, replacement)`
+
+>`SELECT REPLACE('abcdefg', 'abc', '123');`
+123defg
+
+## Date and Time Functions
+
+MySQL offers a wide range of [date and time functions](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html). 
+
+One of the most commonly used is `NOW()` or its synonymous alias `CURRENT_TIMESTAMP()`.
+
+### NOW
+
+The `NOW()` function returns the current time in `YYYY-MM-DD HH:MM:SS` format.
+
+>`SELECT NOW();`
+
+### CURDATE
+
+The `CURDATE()` function returns just the current date with no time information in `YYYY-MM-DD` format.
+
+>`SELECT CURDATE();`
+
+### CURTIME
+
+The function `CURTIME()` returns the time formatted as `HH:MM:SS`.
+
+>`SELECT CURTIME();`
+
+### UNIX_TIMESTAMP() & UNIX_TIMESTAMP(date)
+
+The `UNIX_TIMESTAMP()` function is used to represent time as an integer. 
+
+It will return the number of seconds since midnight January 1st, 1970. 
+
+Time is a sticky problem. Dates for daylight savings change - some states do and don't observe. Timezones. Saudi Arabia changing calendars. Need a source of universal truth about time. 
+
+If you pass a date time value to `UNIX_TIMESTAMP()`, it will give you the number of seconds from the unix epoch to that date.
+
+    SELECT CONCAT(
+        'Teaching people to code for ',
+        UNIX_TIMESTAMP() - UNIX_TIMESTAMP('2014-02-04'),
+        ' seconds'
+    );
+
+## Numerical Functions
+
+MySQL provides a handful of functions for common mathematical operations on sequences. Some of the most common are:
+
+>`AVG:` the mean
+
+>`MIN:` for finding the minimum value
+
+>`MAX:` for finding the maximum value
+
+>`SELECT MIN(emp_no) from employees;`
+
+>`SELECT * from salaries;`
+>`SELECT AVG(salary) from salaries;`
+>`SELECT MAX(salary) from salaries;`
+>`SELECT MAX(salary)-MIN(salary) AS range FROM salaries;` 
+
+
+We will use these functions more in the next lesson when we introduce `GROUP BY`.
+
+### Casting
+
+While not technically a function call, casting is a related concept. 
+
+Casting lets us convert one type to another. 
+
+For the most part, we can simply treat a number as a string, or a string as a number, and MySQL will figure out what to do:
+
+    SELECT
+        1 + '4',
+        '3' - 1,
+        CONCAT('Here is a number: ', 123);
+
+There is also an explicit `CAST` function should the need arise:
+
+    SELECT
+        CAST(123 as CHAR),
+        CAST('123' as UNSIGNED);
+
+### Further Reading
+
+[List of MySQL Mathematical Functions](https://dev.mysql.com/doc/refman/5.7/en/mathematical-functions.html)
+
+[MySQL Regular Expression Syntax](https://dev.mysql.com/doc/refman/5.7/en/regexp.html#regexp-syntax)
+
+### Exercises
+
