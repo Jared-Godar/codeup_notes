@@ -33,7 +33,7 @@
 - **How do we use SQL:**
 
 
-![Data Image](data_flow.png)
+![Data Image](/sql/images/data_flow.png)
 
 - Cloud big
     - Amazon
@@ -95,7 +95,7 @@
 - Expanded list of [reserved names](https://dev.mysql.com/doc/refman/5.7/en/keywords.html)
 
 
-![Database vs Schema](database-vs-schema.png)
+![Database vs Schema](/sql/images/database-vs-schema.png)
 
 -----
 
@@ -923,7 +923,7 @@ The example above performs a basic join (note that join can be replaced with inn
 
 For a basic join, we can expect that we will get only the results where both the left and right tables have values for their respective keys that are mentioned in the `ON` part of the query. Here is a diagram explaining the expected results:
 
-![inner join](inner-join.png)
+![inner join](/sql/images/inner-join.png)
 
 We know that there are four roles and six users in our database. However, there are only four results that have a corresponding record in both the left and right tables of the join. 
 
@@ -937,7 +937,7 @@ Another commonly used type of join is the `left join`. A `left join` is used whe
 
 Note that the only difference between this query and the previous query is the we have added the word `left` in front of `join` to get a `left join`. Here is a diagram explaining the expected results:
 
-![left join](left-join.png)
+![left join](/sql/images/left-join.png)
 
 Since we know that there are six users in the database, and `users` is the left table of the query, we will get all the users returned regardless of whether or not they have a role. Here is the actual query result:
 
@@ -952,7 +952,7 @@ Another type of join is the `right join`. This one is not as common as the other
 
 Note that the only difference between this query and the previous query is the we have replaced the word `left` with `right` to make a `right join`. Here is a diagram explaining the expected results:
 
-![right join](right-join.png)
+![right join](/sql/images/right-join.png)
 
 Since we know that there are four roles in the database, and roles is the right table of the query, we will get all the roles returned regardless of whether or not there is a user that has that role. 
 
@@ -1029,3 +1029,7 @@ Can build anything together as long as syntactically correct
 ## We typically write SQL clauses in this order
 
 ![Write sql](/sql/images/sql-write-order.png)
+
+## SQL Executed clauses in this order
+
+![Execute order](/sql/images/sql-execute-order.jpeg)
