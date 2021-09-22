@@ -1026,6 +1026,6 @@ Can build anything together as long as syntactically correct
 *Programs are buildings of thought* each piece of syntax is a thought that can be combined
 
     
-## We typically write SWL clauses in this order
+## We typically write SQL clauses in this order
 
 ![Write sql](https://files.slack.com/files-pri/T029BRGN0-F02FG6LTB6G/image.png#)
