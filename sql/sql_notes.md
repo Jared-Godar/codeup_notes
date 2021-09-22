@@ -1028,4 +1028,4 @@ Can build anything together as long as syntactically correct
     
 ## We typically write SWL clauses in this order
 
-![Write sql](\images\sql-write-oder.png)
+![Write sql](/images/sql-write-oder.png)
