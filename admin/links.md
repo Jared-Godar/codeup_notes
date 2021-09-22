@@ -62,6 +62,14 @@
 
 [MySQL Forum](https://forums.mysql.com/list.php?152)
 
+[MySQL Primary Key Documentation](https://dev.mysql.com/doc/refman/5.7/en/optimizing-primary-keys.html)
+
+[MySQL Index documentation](https://dev.mysql.com/doc/refman/5.0/en/mysql-indexes.html)
+
+[MySQL multiple column indexes](https://dev.mysql.com/doc/refman/5.7/en/multiple-column-indexes.html)
+
+
+
 
 ## Mac / PC Stuff
 
