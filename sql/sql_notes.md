@@ -1028,4 +1028,4 @@ Can build anything together as long as syntactically correct
     
 ## We typically write SQL clauses in this order
 
-![Write sql](https://files.slack.com/files-pri/T029BRGN0-F02FG6LTB6G/image.png#)
+![Write sql](/images/sql-write-order.png)
