@@ -12,3 +12,6 @@ Edwards Tufte: "I have stared long enough at the glowing flat rectangles of comp
 "Art that only comes from the head isn't any good."
 
 Coding / data science *is* a creative enterprise. Ideas and inspiration often come while working on other things. Maintaining balance makes us better, not a problem from not soding all the time. Balance is essential.
+
+
+"A program is a building of thought.", - Marjn Haverbeke From Ryan. If the blinking cursor is making you want to write code, slow down - plan it out - paper / whiteboard
