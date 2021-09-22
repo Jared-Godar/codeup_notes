@@ -1026,3 +1026,6 @@ Can build anything together as long as syntactically correct
 *Programs are buildings of thought* each piece of syntax is a thought that can be combined
 
     
+## We typically write SWL clauses in this order
+
+![Write sql](\images\sql-write-oder.png)
