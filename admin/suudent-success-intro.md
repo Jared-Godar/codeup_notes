@@ -24,6 +24,7 @@
 ## Communication
 
 [Email Keri keri@codeup.com](mailto:keri@codeup.com)
+- Can slack her @Keri
 
 - Email
     - Nothing blank

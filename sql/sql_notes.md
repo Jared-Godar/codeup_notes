@@ -1033,3 +1033,16 @@ Can build anything together as long as syntactically correct
 ## SQL Executed clauses in this order
 
 ![Execute order](/sql/images/sql-execute-order.jpeg)
+
+----
+
+## Supplemental JOIN notes
+
+[W3 Schools SQL joins](https://www.w3schools.com/sql/sql_join.asp)
+
+### QL JOIN
+
+A `JOIN` clause is used to combine rows from two or more tables, based on a related column between them.
+
+
+
