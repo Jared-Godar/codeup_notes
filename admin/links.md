@@ -45,6 +45,8 @@
 
 [Sql formatter](https://sqlformat.org/)
 
+[Another SQL formatter](https://www.freeformatter.com/sql-formatter.htm)
+
 [MySQL Reserved Words](https://dev.mysql.com/doc/refman/5.7/en/keywords.html)
 
 [SQL Exercises](https://www.hackerrank.com/domains/sql)
