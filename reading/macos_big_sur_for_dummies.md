@@ -246,4 +246,29 @@ The hard drive will die someday. You need a backup.
 Apple ,enu tree, far left
 About this mac, system preferences, app store, recent items, force quit, shutdown
 
+-----
+2021-09-24
+
 ## Chapter 3: Whats Up, Dock?
+
+Appears at the bottom by default, can be moved to the right or left.
+
+**Folder** icons are called *stacks* and can display:
+    - Fan
+    - Grid
+    - List
+
+Other icons open an application or document with one click
+
+Good place to put files, folders, and apps you use a lot.
+
+Single click for items in dock or launchpad. 
+
+If application is already open, it becomes active and windows come to the front
+
+`File` -> `Open with` turns into `Always open with`if you hold down the option key while right/control clicking.
+
+Can drag icons into doc.
+
+Applications on the left; files, folders, urls to the right
+
