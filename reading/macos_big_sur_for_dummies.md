@@ -272,3 +272,13 @@ Can drag icons into doc.
 
 Applications on the left; files, folders, urls to the right
 
+To change the size of the dock,, hover over the divider in the dock and drag up and down
+
+Folder of documents or whatever can be added to dock; View contents as fan, grid, or list
+
+## Chapter 4 Getting to Know Finder and Its Desktop
+
+Launches automatically and is always running in the background. No quit commend.
+
+Desktop is a special part of the Finder.
+
