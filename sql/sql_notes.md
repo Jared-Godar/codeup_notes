@@ -1044,5 +1044,263 @@ Can build anything together as long as syntactically correct
 
 A `JOIN` clause is used to combine rows from two or more tables, based on a related column between them.
 
+## Sub-queries
+
+`SELECT` query elclosed inside another query
+
+Inner query is evluated first and is used to determine result of the outer query.
+
+Sub-queries, also called nested queries, refers to having more than one query expression in a query.
+
+The main advantages of subqueries are: - They allow queries that are structured so that it is possible to isolate each part of a statement. - They provide alternative ways to perform operations that would otherwise require complex joins and unions. - Many people find subqueries more readable than complex joins or unions. Indeed, it was the innovation of subqueries that gave people the original idea of calling the early SQL “Structured Query Language.”
+
+**EXAMPLE**
+
+Which employees have higher than average salary?
+
+    SELECT avg(salary) from salaries --63.810
+
+    SELECT emp_nno from employees
+    WHERE salary > (SELECT avg(salary) from salaries)
+
+Get names of all current managers
+
+Separate table for department managers with employee numbers, but names in employye table
+
+    SELECT emp_no FROM dept_manager
+    WHERE dept_namager.to_date > now() -- Column output
+
+To get names, use outer queey
+
+    SELECT first_name, last_name
+    FROM employees
+    WHERE emp_no IN (SELECT emp_no FROM dept_manager
+                    WHERE dept_namager.to_date > now()
+                    );
+
+Table subqueries return an entire table
+
+    SELECT * FROM salaries
+    WHERE to_date >  now ()  - Table output
+
+    SELECT current_salary.emp_no, current_salary.salary 
+    FROM (SELECT * FROM salaries
+        WHERE to_date >  now ()) as current_salary
+    JOIN employees using(emp_no)
+
+All derived tables must have their own alias
+
+Can use all the `JOIN`, `WHERE`, `GROUP BY`, `HAVING` etc. from before in conjunction with this.
+
+## Using Sub-queries
+
+Sub-queries are helpful when we want to find if a value is within a subset of acceptable values. A subquery can return a scalar (a single value), a single row, a single column, or a table (one or more rows of one or more columns). These are called scalar, column, row, and table subqueries.
+
+### Scalar Subqueries Return a Single Value
+
+An example of a scalar subquery. Notice how the subquery returns a single value and we can treat that subquery as if it were that single value operand. Notice how the scalar subquery (`SELECT` `AVG(salary)` `FROM salaries` `WHERE to_date > CURDATE())` operates with the comparison operator as if we had typed 72012.2359.
+
+    SELECT emp_no, salary
+    FROM salaries
+    WHERE salary > (SELECT AVG(salary) FROM salaries WHERE to_date > CURDATE())
+    AND to_date > CURDATE();
+
+And consider that we can do arithmetic on the scalars returned from a scalar subquery. The following query returns all the current employee numbers w/ salary figures if they make more than twice the current average salary.
+
+    SELECT emp_no, salary
+    FROM salaries
+    WHERE salary > 2 * (SELECT AVG(salary) FROM salaries WHERE to_date > CURDATE())
+    AND to_date > CURDATE();
+
+### Column Subqueries Return a Single Column
+
+A column query follows this syntax:
+
+    SELECT column_a, column_b, column_c
+    FROM table_a
+    WHERE column_a IN (
+        SELECT column_a
+        FROM table_b
+        WHERE column_b = true
+    );  
+
+From our employees database, we can use this example query to find all the department managers names and birth dates:
+
+    SELECT first_name, last_name, birth_date
+    FROM employees
+    WHERE emp_no IN (
+        SELECT emp_no
+        FROM dept_manager
+    )
+    LIMIT 10;
+
+### Row Subqueries Return a Single Row
+
+    SELECT first_name, last_name, birth_date
+    FROM employees
+    WHERE emp_no = (
+        SELECT emp_no
+        FROM employees
+        WHERE emp_no = 101010
+    );
+
+### Table Subqueries Return an Entire Table
+
+The returned table needs an alias. Notice that onced aliased, a table subquery can be treated like its own table. Notice in the second example that we can even join onto a table subquery. If table subqueries get too complex or computationally intensive, however, it may be a better idea to store the table query to a temporary table. For example, if you notice you keep copying and pasting the subquery, then it will be a good idea to turn that particular subquery into a temporary table.
+
+    SELECT g.birth_date, g.emp_no, g.first_name from 
+    (
+        SELECT * 
+        FROM employees
+        WHERE first_name like 'Geor%'
+    ) as g;
 
 
+    SELECT g.first_name, g.last_name, salaries.salary
+    FROM
+        (
+            SELECT * 
+            FROM employees
+            WHERE first_name like 'Geor%'
+        ) as g
+    JOIN salaries ON g.emp_no = salaries.emp_no
+    WHERE to_date > CURDATE();
+
+### Exercises
+
+## Temporary Tables
+
+We can create virtual, or temporary tables that we can use to perform data manipulations, without worrying about modifying the original data.
+
+    CREATE TEMPORARY TABLE table_name(...);
+
+>In this lesson, we will talk about changing the data in rows in a table, dropping rows from a table, and changing the structure of a table. This can be useful for temporary tables that we create, but, in general, you won't want to do be doing this on actual production database tables.
+
+Security and Data Integrity rationale
+- Don't need super admin permissions when working with data
+- Only set permissions on stuff you need to see
+    - Enable more "admin" access like delete or update on a sandbox db.
+
+Accessibility and ease of access
+- Same query with three joins and two where clauses - store the results as a table. 
+    - Permanent if nothing changing
+    - Temporary for more dynamic data
+
+If you're reading from the salaries table on the employees bd, try suntax like `employees.salaries` generally `db_name.table_name`
+
+If writing to data (making tables), talk to databae(s) you can write to 
+
+db name `happer1234.table_name`
+
+Keep reading separate from writing. Compartmentalize - don't accidentally alter actual tables
+
+    USE employees;
+
+    create temporary table hopper_1545.employee_department_salary AS (
+        select emp_no, first_name, last_name, dept_name, salary
+        from employees
+        join dept_emp using(emp_no)
+        join departments using (dept_no)
+        join salaries using(emp_no)
+        where salaries.to_date > curdate() and dept_emp.to_date > curdate()
+    );
+
+Can create permanent tables by removing word temporary
+
+
+### Table Creation Example
+
+Let's walk through an example of creating a temporary table. We'll create a simple table that just stores a single number in each row.
+
+First we will write the query to create the table
+
+    CREATE TEMPORARY TABLE my_numbers(
+        n INT UNSIGNED NOT NULL 
+    );
+
+Now we will insert some data into it.
+
+    INSERT INTO my_numbers(n) VALUES (1), (2), (3), (4), (5);
+
+Let's take a look at what our table looks like:
+
+    SELECT * FROM my_numbers;
+
+Now we'll perform an `UPDATE`,` meaning we will modify the information in our table. Note that we are not changing the data in original table, just the data in the temporary table we created.
+
+    UPDATE my_numbers SET n = n + 1;
+
+Note here that because we have no `WHERE` clause the update will apply to all rows in the table.
+
+Now let's remove some records. Again, this applies just to our temporary table.
+
+    DELETE FROM my_numbers WHERE n % 2 = 0;
+
+So all in all, we will have added one to each number, then removed the even numbers. Let's see the results:
+
+n - 3 6
+
+### Creating a Table From Query Results
+
+We can also create a temporary table from the results of another query. This allows us to quickly work with data from another table, and we will not have to explicitly specify all of our data types. This can be particularly useful when we want to, for example, work with the results of a complex `JOIN`.
+
+    CREATE TEMPORARY TABLE employees_with_departments AS
+    SELECT emp_no, first_name, last_name, dept_no, dept_name
+    FROM employees
+    JOIN dept_emp USING(emp_no)
+    JOIN departments USING(dept_no)
+    LIMIT 100;
+
+### Updating Table Structure
+
+Once we have created a temporary table, we can change it's structure with the `ALTER TABLE`command. For example, if we wanted to drop the `dept_no` column we could write the following SQL.
+
+    ALTER TABLE employees_with_departments DROP COLUMN dept_no;
+
+To add a column, we can use the `ADD` keyword like this:
+
+    ALTER TABLE employees_with_departments ADD email VARCHAR(100);
+
+To show what dattabase you are working in:
+
+    select database():
+
+Note that after adding a column, the values will be NULL in all of the rows. We could populate that column with data by running an update:
+
+    -- a simple example where we want the email address to be just the first name
+    UPDATE employees_with_departments
+    SET email = CONCAT(first_name, '@company.com');
+
+### An Important Note on Permissions
+
+In order to create a temporary table in a given database, your MySQL user account must have the `CREATE TEMPORARY TABLES` privilege enabled.
+
+Remember that `SELECT DATABASE();` shows the currently selected database. And the currently selected database is selected by `USE database_name;`
+
+It is common to separate databases and specify different permissions for different users. One technique is to set only one database up as a sandbox with full permissions for a given user or analyst. If that same user only has `SELECT` privileges on all other databases, then the risk of accidental record deletion is addressed. This process also addresses other security risks.
+
+
+You can only `USE` one database at a time
+    use employees;
+    select database():
+    use mall
+
+Remember to only creat temporary tables on your database
+    speciy 
+
+Our workflow will be to create temporary tables on a database where you have the appropriate permissions.
+
+
+    -- Use the read_only database
+    -- This avoids needing to re-type the db_name in front of every table_name
+    USE employees;
+
+    -- Specify the db where you have permissions and add the temp table name.
+    CREATE TEMPORARY TABLE hopper_1545.employees_with_salaries AS 
+    SELECT * FROM employees JOIN salaries USING(emp_no);
+
+    -- Change the current db.
+    USE my_database_with_permissions;
+    SELECT * FROM employees_with_salaries;
+
+### Exercises
