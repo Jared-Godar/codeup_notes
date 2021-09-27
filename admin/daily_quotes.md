@@ -21,3 +21,7 @@ Coding / data science *is* a creative enterprise. Ideas and inspiration often co
  ―  John Darnielle
 
  Don't get frustratd when things don't seem like they are coming as quickly as you would like.
+
+ 27SEP21
+ "It's tough to make predictions, especially about the future." - Yogi Berra
+ 

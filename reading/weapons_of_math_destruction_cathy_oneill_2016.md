@@ -49,3 +49,49 @@ Monte Carlo search.
 Design an algorithm to defferentiate window shoppers from buyers on travel website. Casual viewers offered ads to competitors and got ad revenue from browsing. 
 
 ### Arms Race: Going to College
+
+One WMD issue is scale. A formula - be it a diet or tax code - may be perfectly innovuous in theory. But if it grows to be a national or global standard, it creates its own distorted and dystopian economy. This happened in higher education.
+
+1983 *U.S. News & World Report* decided to evaluate and rank 1,800 colleges and universities. 
+
+In the beginning, scores based entirely on opinion surveys. Hit with readers, but administrators questioned fiarness - look at the *data*.
+
+Start out with series of hunches - not a scientific process and scant grounding in statistical analysis. Just people wondering what matters most, figuring out which variables they can count, and deciding how much weight to give each in a formula.
+
+Most disciplines this type of analysis would demand more rigor - some kind of scoring system rating the model to reality, but "educational excellence" was harder to define, quantify, and nothing to really compare to model. Can't directly measure learning, hapiness, confidence, friendship, or other important aspects.
+
+Picked proxies that seemed to corrolate with success. SAT scores, student-teacher ratios, and acceptance rates. Percentage of freshman to sophomore to graduates. Percentage of living alumni who donated. 3/4 of the rating was from an algorithmy formalizing these opinions in code, remaining quarter factored subjective views from surveys.
+
+1988 was first data-driven ranking. Results seemed sensible. But it became the national stndard and started a vicious feedback loop. Ranking self-reinforcing. If a college fared badly in the eating, its reputation would suffer, and conditions would deterioate. Top students and teachers would avoid it and rankings would tumble further.
+
+Room for varying opinions with good arguments on each side previously with college reputations. Now overshadowed by single column of numbers. College presidents scrambled to boost performance in 15 areas defined by journalists at a secont-tier magazine.
+
+Report quickly became a national standard. Great scale, widespread damage, and spiral of destructive feedback loops. Not as opaque as many other models, but still a WMD.
+
+Baylor pays for students to retake the SAT, schools sent false SAT data to US News, and other factors fudged.
+
+When you create a model from proxies, it is simpler to game the system. Proxies are easier to manipulate than the complicated reality they represent.
+
+Forcing everyone to shoor for the same goals creates a rat race with harmful unintended consequences. 
+
+Financing - tuition and fees - left out of the model. What is the objective of the modeler? Wanted model to show historically top schools on top. If finances were considered, cheaper good schools could have placed highly which could create surprises and dow doubts. Safer to start with venerable champions on top. Presidents had 15 factors to consider, but keepingcosts low wasn't one of them. Raised prices to address others.
+
+1985-2013, cost of higher education rose by over 500%, nearly four times the rate of inflatio. Building booms and increased amenities to attract top students. 
+
+Students trrated like investment portfolios with assets and liabilities. Educational consulting firms rank prospects by geography, gender, ethnicity, field of study, academic standard, etc. All within ecosystem of US News rankings. As rankings grow, so do efforts to game them. Global - Saudi Arabia King Abdulaziz University math department jumed to 7th place in 2 years beeating Cambridge and MIT. School offered highlycited mathemeticians $72k to serve as adjunct faculty. Flew business class and five star hotel couple weeks a year. Change affiliation on THomson Reuters citation website - claiming citations of adjunct faculty and significantly boosting ratings.
+
+Coaches and tutors and test-prep industry. Top-Tier admissions four day "application boot camp" costs $16,000 plus room and board. Develop essays, interview coaching, and other prep. With future success hinging on elite university - people pay the price.
+
+Victims are the vast majority of Americans - poor and middle class who don;t have thousands of dollars to spend on courses and consultants. Miss out on key insider knowledge. Result is an education system that favors the privliged. Tilts against needy stdents and deepens the social divide.
+
+Obama proposed new college ranking model, more in tune with national priorities and middle-class means. Sap power from for-profit education institutions. Use different metrics: affordability, percentage of poor and minority suudents, and postgraduate job placement, graduation rate. If college failed to meet standards, cut off from $180B/year federal student loan market (which for-profit universities have been feasting on).
+
+Seem like worthy goals, but every ranking system ca be gamed. Different feedback loops with unintinded consequences.
+
+Easy to raise graduation rates by lowering standards. Income of graduates can be boosted by eliminating training programs in lower paid jobs - teachers, social workers, etc.
+
+Lower costs by reducing percentage of tenured faculty replacing expensive proessors with cheaper instructors or adjuncts.
+
+Graduates employed after nine months gamed - some schools hired own graduates for hourly temp jobs to count as employed.
+
+## Chapter 4. Propaganda Machine: Online Advertising
