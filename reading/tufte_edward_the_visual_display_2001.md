@@ -33,5 +33,5 @@ Ability to present complesx ideas with clarity, precision, and efficiency:
 
 **Anscombe's quartet** All have same linear model, but quite different. 
 
-![anscombe1](/reading/images/anscombe1.heic)
-![anscombe2](/reading/images/Anscombe2.heic)
+![anscombe1](/reading/images/ans1.png)
+![anscombe2](/reading/images/ans2.png)
