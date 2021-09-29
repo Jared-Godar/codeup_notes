@@ -95,3 +95,39 @@ Lower costs by reducing percentage of tenured faculty replacing expensive proess
 Graduates employed after nine months gamed - some schools hired own graduates for hourly temp jobs to count as employed.
 
 ## Chapter 4. Propaganda Machine: Online Advertising
+
+People leave rvers of data giving advertisers the ability to learn about them in grat detail. Which, in turn enables companies to target them with valuable information at just the right time and place.
+
+Justification? Argues personalized advertising would be useful and timely that customers would welcome it. Thoughts were that people objected to ads because they were irrelavent. 
+
+For-profit colleges, University of Phoneix targeted poor people with the bait of upward mobility. Multimillion-dollar operations underwritten by government-financed loans and the diplomas offered had scant value in the workplace. 
+
+## Chapter 5 Civilian Casualties: Justice in the Age of Big Data
+
+Lots of predictive crime algorithms that shape patrol and enforcement patterns. Can increase efficiency of budget-strapped police forces. Generates "hot-spots" based on past trends, increased presence in these areas lowers some crime rates. Siminar to baseball defense-shifting models. Increased presence results in increased enforcement of lower-teir nonviolent, nuisance crimes. More reports - more crime - more cops in same areas - more reports - feedback cycle filling prisons with hundreds of thousands of people found guilty of victimless crimes. Many poorer neighborhoods - predominately blacks and hispanics. So, even if models are race-bline, the results are not.
+
+Petty crimes have been linked to more serious ones since 1982 - George Kelling article on "broken windows polcing: concept where lower level crimes create an atmosphere of disorder, scaring away law-abiding citizens, and becoming breeding grounds for serious crimes. 90's zero-tolerance campaigns, famously in NYC. Gained broad support - millions of young minority men sent to prion, many for minor offenses.
+
+Most jurisdictions a crime map of petty crime tracks powerty - reinforcing society's conceptions that poor are responsible for shortcomings and commit most of the crime. 
+
+Financial crimes - low priority. Wealth and lobbies lead to underpolicing. If zero-tolerance enforves. Choices made on where to focus attention. Criminalized poverty nelieving tools used are scientific and fair.
+
+Data "hackathon" bringing together hackers, nerds, mathematicians, and software geeks to look at stop and frisk. Bloomerg raised 600% - 700,000 spot checks. Majority of those stopped were innocent. 85% of stops were of yound aftican american or latino men. Many stopped repeatedly. 0.1% linked to violent ctime. Drug posession, underaged drinking prosecuted. Determined to be unconstitutional. 
+
+WMDs often faced with choice between fairness and efficacy. Legal traditions lean towards fairness. Constitution presumes innocence and engineered to value it. WMDs favor efficiency. Fairness is hard to quantify. Are we willing to sacrifice a bit of efficiency for fairness? Handicap models leaving certain data out? Justice should be something one part of society inflicts upon the other. 
+
+Recidivism study in Harris country. 2.6M recods. Longer inmate spent locked up, greater chance they would be unemployed upon release, require food stamps and public assistance, commit further crimes.
+
+Facial recognition emerging for broader surveilance. Shifting to identifying potential lawvreakers problematic. 
+
+## 6 Ineligible to Serve: Getting a Job
+
+Personality tests from Kronos - five factor model: extraversion, agreeableness, conscitntiousness, neuroticism, and openness to ideas. Vanderbilt student unable to get minimum-wage grocery jobs based on thest and model. Widespread among large corporations. 1970s MIT Kronos software tools Workforce Ready PR. Automation of hiring process $500 M industry growing 10-15% annually. Used on 60-70% pf prospective workers, up from just 30-40% five years ago.
+
+Can't incorporate information aabout how candidate would actually perform at the company. Settle for proxies. 1971 *Griggs v Duke* daid IQ tests for jobs were discriminatory and therefore illegal. Independent of legaliity, these tests are poor predictors of jon performance. Illegal screens for mental illness. Process is opaque. 
+
+2001-2 before resume ATS, MI sent 5k phone resumes modeled for race. White names 50% more callbacks. ORchestras started having blind auditions in the 70s - women players increasef five-fold.
+
+72% resumes never seen by human eyes. Programs flip through them and score for job opening. Must sprinkle with key words specific job is looking for. resunate.com
+
+## 7 Sweating Bullets: On the Job
