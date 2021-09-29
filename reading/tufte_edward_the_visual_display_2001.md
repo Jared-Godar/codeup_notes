@@ -33,5 +33,30 @@ Ability to present complesx ideas with clarity, precision, and efficiency:
 
 **Anscombe's quartet** All have same linear model, but quite different. 
 
-![anscombe1](/reading/images/ans1.png)
-![anscombe2](/reading/images/ans2.png)
+![anscombe1](/reading/images/ans2.png)
+![anscombe2](/reading/images/ans1.png)
+
+Statistical graphics, like statistical calculations, only as good as what goes into them. Shitty model and data can't be rescued by graphics, no matter how clever or fancy. 
+
+Silly theory = silly graphic
+
+### Data Maps
+
+Age-adjusted rates of various cancers by county (3,056 in US)
+
+Can be thought of in many different ways at many different levels of analysis: overall patterns, or fine county-by-county detail. 
+
+Facilitate easy analysis, but have flaws: conflate visual importance of each county with visual area erather than population (or number of cancer deaths). Visual impression of datea entangled with the circumstances of geographic boundaries, shapes, and aread -- chronic problem of shade-in, "blot" or "patch" maps.
+
+Also, data source: death certiciates cause of death. Indluence of diagnostic fashions dictated by plae and time -- troucling adulterant of ecidence. Some visual clusters my reflect diagnostic customs or fads along with the actual differences in cancer rates.
+
+Data maps have a curious history. Not until 17th centyru that cartographical and statistical standards advanced to the point where a data map was created. Fully 5,000 years after the first geographical maps appeared on clay tablets. 
+
+**Edmond Halley 1686** Trade winds and monsoons on a world map. "An Historical Account of the Trade Winds, and Monsoons, Observable in the Seas Between and Near the Tropicks[sic]; With an Attenpt to Assign the Phisical[sic] Cause of the Said Winds" *Philosophical Transactions*, 183(1686)
+
+![wind](/reading/images/wind.png)
+
+
+**Dr. John Snow** Cholera. London. September 1854.
+
+![cholera](/reading/images/cholera.png)
