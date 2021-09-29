@@ -28,4 +28,8 @@ Coding / data science *is* a creative enterprise. Ideas and inspiration often co
  28SEP21
  "A human must turn information into intelligence or knowledge. We've tended to forget that no computer will ever ask a new question" - Grace Hopper Ravinder. Maggie: throwing program, fuction, or machine learning algorithm at every problem - you're on the track to having a job that will be automated. Using human intellegence and thinking can't be automated. That's your job security.
 
+ 29SEP21
+ “ ‘When someone seeks,’ said Siddhartha, ‘then it easily happens that his eyes see only the thing that he seeks, and he is able to find nothing, to take in nothing. [...] Seeking means: having a goal. But finding means: being free, being open, having no goal.’ ” Hermann Hesse
+
+ Often assumed that numbers are cold, hard, objective truth. In data science and with statistical tools can see what we are looking for - either benignly or maliciously - must maintain perspective and strive to avoid bias in analysis.
  
