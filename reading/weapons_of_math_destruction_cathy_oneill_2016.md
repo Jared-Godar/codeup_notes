@@ -131,3 +131,33 @@ Can't incorporate information aabout how candidate would actually perform at the
 72% resumes never seen by human eyes. Programs flip through them and score for job opening. Must sprinkle with key words specific job is looking for. resunate.com
 
 ## 7 Sweating Bullets: On the Job
+
+New corporate term: *clopening* Emplpyee works late to close then opens a few hours later on the next day. Can make logistical sense for the corporation, but shitty for the worker.  Wildly irregular schedules are increasingly common, particularly for low-wage workers. Lack of scheduling notice compounds the problem. Havoc for lives and child care.
+
+These irregular scheles are a product of the data economy. Efficiency-promoting algorithms treat workers as cogs in the machine. 
+
+Scheduling used to be unscientific. Now trends in customer traffic patterns dictate staffing. Goal is to spend as little as possible, which means minimum staff to deal with changing customer traffic. Money saved comes straight from employees' pockets. Old ways - predictible schedule with periods of downtime. Now, every minute should be busy. 
+
+2/3 of food service workers and 1/2 of retail find out about schedules with a notive of a week or less - often just a day or two. 
+
+Despite pledges to improve, the problem continues. Manageer pau is contingent upon staff efficieincy measured as revenue per employee per hour. 
+
+"Operations Research" or OR is a discipline of mathematics driving these operations. Help farmers plant crops or civil engineers to plan highways. Took off in WWII. Afer, corporations poured enourmous resources in to OR. Science of logistics radically transformed how goods are produced and brought to market.
+
+60's Japanese auto manufacturers devised "Just in Time" practices. Instead of having mountains of inventory, things arrived as needed - complex supply chains. Serves as the mathematical underpinnings of Amazon, FedEx, UPS, etc.
+
+Scheduling extention of JIT mentalitiy, but instread of laenmower blades or cell phone screens, it is moving people. People who badly need money and have to accept the shitty schedules.
+
+Churn and turnover affects bottom line of companies, but the issue from a worker perspective is an oversupply of low-wage labor. This oversupplyw with scarcity of effective unions, leaves workers with no bargaining power. So, more absurd schedules are produced with limited churn. Make more money while employees' lives get more hellish. So pervasive, worker knows changing jobs is unlikely to improve situation - close to captive workforce.
+
+Scheduling software huge WMD taking advantage of those already struggling to make ends meet. Poisonous feedback loop. Haphazard schedule makes it next to impossible to persue education and escape the oversupplied poool of low-wage labor. Anxiety and sleep deprivation while algorithm keeps them under 30 hours per week so healthcare isn't provided. Also makes it next to impossible to have second job, also with shitty short-notice scheduling.
+
+Challenging schedule rolls down to childrens' routines impacting cognitive and behavioral outcomes. Root of the problem stems from modelers' choice of objectives: optimized for efficiency and prifitibility while neglecting justice or the good of the "team".
+
+Need press, regulation, stong unions, and politicians willing to restrain corporations' worst excesses.
+
+Declining SAT scores... Artifiact of education becoming more accessible to minorities and low-wage students historically excluded. Even though the composite averages were declining, when population was broken down into income groups - scores of every single group were rising.
+
+**Simpson's Paradox** Whole body of data displays one trend, yet when the data is subdivided, the opposite trend emerges for the subgroups. 
+
+## 8. Collateral Damage: Landing Credit.
