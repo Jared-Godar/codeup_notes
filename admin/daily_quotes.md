@@ -17,7 +17,7 @@ Coding / data science *is* a creative enterprise. Ideas and inspiration often co
 "A program is a building of thought.", - Marjn Haverbeke From Ryan. If the blinking cursor is making you want to write code, slow down - plan it out - paper / whiteboard
 
 23SEP21
-"Some lessons you learn gradually and some you learn in a sudden moment, like a flash going off in a dark room.”
+"Some lessons you learn gradually and some you learn in a sudden moment, like a flash going off incd a dark room.”
  ―  John Darnielle
 
  Don't get frustratd when things don't seem like they are coming as quickly as you would like.
@@ -32,4 +32,9 @@ Coding / data science *is* a creative enterprise. Ideas and inspiration often co
  “ ‘When someone seeks,’ said Siddhartha, ‘then it easily happens that his eyes see only the thing that he seeks, and he is able to find nothing, to take in nothing. [...] Seeking means: having a goal. But finding means: being free, being open, having no goal.’ ” Hermann Hesse
 
  Often assumed that numbers are cold, hard, objective truth. In data science and with statistical tools can see what we are looking for - either benignly or maliciously - must maintain perspective and strive to avoid bias in analysis.
+ 
+ 30SEP21
+ "Don't misuse statistics the way a drunk person misuses a lamp-post -- for support rather than for illumination" - Zach Guide
+
+ 
  
