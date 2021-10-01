@@ -111,3 +111,12 @@
 
 [CodeUp Podcast](https://codeup.com/podcast/)
 
+
+## Python
+
+[Youtube COrey Schaeffer](https://www.youtube.com/c/Coreyms)
+
+[Coding Bat](https://codingbat.com/python)
+
+[Hacker Rank Python](https://www.hackerrank.com/domains/python)
+

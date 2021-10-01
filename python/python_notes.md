@@ -135,3 +135,18 @@ File - new Python3 notebook
 
 Python scripts are plain text. Sytactically correct python will run from the terminal. 
 
+---
+01OCT21
+
+Now that environment is set up, we are getting into coding in Python.
+Systematic approach to learning python good, but never ends. Always exposed to something new and learning more. Always huge sections out there to explore.
+
+General programming language that it is, can make whole career in Python building software in that language.
+
+[Youtube COrey Schaeffer](https://www.youtube.com/c/Coreyms): egood coding tutorials. Mostly python
+
+Dictionaries of dictionaries - pain in the ass. Need to be comfortable with dictionaries for building and using data structures. 
+
+https://codingbat.com/python
+
+https://www.hackerrank.com/domains/python
