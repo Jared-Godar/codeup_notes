@@ -36,5 +36,8 @@ Coding / data science *is* a creative enterprise. Ideas and inspiration often co
  30SEP21
  "Don't misuse statistics the way a drunk person misuses a lamp-post -- for support rather than for illumination" - Zach Guide
 
- 
- 
+ 01OCT21 - Cabin at the end of the world - horror novel per madeline
+ Their eyes were watching god
+ "Research is formalized curiosity it is poking and prying with purpose." - Zora Hyeston
+
+ Easy to get lost in the woods when exploring data. Must go in with pointed questions. Science - should be reprodicuble. 
