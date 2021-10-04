@@ -40,4 +40,8 @@ Coding / data science *is* a creative enterprise. Ideas and inspiration often co
  Their eyes were watching god
  "Research is formalized curiosity it is poking and prying with purpose." - Zora Hyeston
 
- Easy to get lost in the woods when exploring data. Must go in with pointed questions. Science - should be reprodicuble. 
+ Easy to get lost in the woods when exploring data. Must go in with pointed questions. Science - should be reprodicuble. cd ..
+
+ 04OCT21:
+ "All models are wrong, but some are useful."- George Box
+ Not reality. Approximation of some reality out there. Varying quality.
