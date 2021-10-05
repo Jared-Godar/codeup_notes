@@ -111,4 +111,34 @@
 - Look for patters
 - Develop mindset
 - Reaminder, on the job training for specific sector
-- 
+- First job typically hardest to get
+    - Scaffold: get you from point A to point B
+    - If you get a gig in an area you have some domain knowledge, can have an advantage to be a new hire
+- Couple other ways to get into new field
+    - DoD - cut 10% budget 
+        - 500 analysts to 200 analysts
+        - Interested in nonprofits
+            - Volunteered
+            - Asked for mentor
+                - Unorganized: Helped with strategic planning
+           - Worked for free for 
+- Writing: 
+    - Edible
+    - San Antinio ____
+        - Tech reporter
+- Use things you like
+- Try new things
+- Cold staart:
+    - Hard worker
+    - Willing to learn
+    - Good data science, able to learn domain expertise
+- Look for low-hanging fruit:
+    - Find easy problems to solve with data
+        - Build credibility
+        - Don't start with the hardest thing first    
+- Going into GOVT
+    - City of SA Office of Innovation Hiring Spree
+    - Lots of contracting out to other companies 
+        - Contract gigs vs. full-time work
+- International work
+    - US companies with overseas office
