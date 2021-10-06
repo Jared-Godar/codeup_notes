@@ -142,3 +142,10 @@
         - Contract gigs vs. full-time work
 - International work
     - US companies with overseas office
+- Educate employer about what you can and cant do in a given time frame
+    - Don't burn yourself out trying to over deliver
+    - Manage expectations
+    - They will learn
+
+- Feel free to reach out for advice. Happy to help.
+
