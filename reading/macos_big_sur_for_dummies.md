@@ -282,3 +282,105 @@ Launches automatically and is always running in the background. No quit commend.
 
 Desktop is a special part of the Finder.
 
+### Desktop
+
+> Icons on desktop behave the same as icons in windows
+> Get to know startup disk icon
+    - No longer displayed by default, select box in finder preferences
+> Other disks or hard drives do show up on desktop
+> Can moce item to desktop to make it easier to find
+
+### Toolbar
+
+- In addition to the sidebar, the macOS Finder window offers additional navigation aids on the toolbar
+    - Back and Forward icons
+    - View icons
+        - Icon (⌘+1)
+        - List (⌘+2)
+            - left triangle
+                - See contents of folder without opening it
+                - Select items from multiple solders at once
+                - Move or copy items between folders in a single window
+                - Can change order of columns
+                    - Press and hold on column name then drag
+        - Column (⌘+3)
+            - Quickly look through a lot of folders at once
+            - Can have as many colmns as fit on screen
+            - Resize column divider lines
+        - Gallery (⌘+4)
+            - Useful for folders with documents or images
+    - Go menu
+- Toolbar area top of finder window
+    - Command + Option + T shows/hides toolbar
+
+### Icons
+
+- Represents item or container
+- Dock and sidebar icons are aliases (shortcuts) to actual icons in finder
+- Single-click select
+- Double-click open
+- Click and drag to move
+- Release mouse to drop
+- Application icons
+    - Programs
+- Document Icons
+    - files created by applications
+- Folder and disk icons
+    - Organizational containers
+- Alias Icons
+    - Tiny file that automatically opens the file folder, disk, or network volume it represents
+    - Organizational tool alllowing you to store an icon in multiple places without creating multiple copies of the file. 
+        - Convenience: alias of wordprocessor on desktop and in documents folder
+        - Flexibility and organization
+    - Click parent icon, choose file make alias or ⌘+control+A
+    - Create a file - save it in the proper folder inside documents and make an alias on the desktop while you are working on it. Once finidhsed, trash the alias. 
+
+    ### View menu commands
+
+    - Use Groups
+        - Active window only
+        - Subdivides items into groups
+    - Group by
+        - Name (⌘+control+1)
+        - Kind (⌘+control+2)
+        - Application
+        - Date last opened (⌘+control+3)
+        - Date added (⌘+control+4)
+        - Date modified (⌘+control+5)
+        - Date created
+        - Size (⌘+control+6)
+        - Tags (⌘+control+7)
+    - Clean up
+        - Align items to invisible grid
+            - Turn on or off for desktop and individual windows using view options
+        - Only work for windows viewed as icons
+    - Sort by
+        - Rearranges base don option
+        - Persistent and will continue to re-organize automaticallu
+            - Cant movce icons around manually  
+        - Available in all four views
+        - Remains in effect if you switch to a different view or close the menu
+        - To stop: chose `None` from `Viewa - > Sort By` submenu 
+
+    ### Go menu
+
+    - Back ⌘+[
+    - Forward ⌘+]
+    - Enclosing folder ⌘+up
+    - Recents shift+⌘+F
+    - Documents shift+⌘+O
+    - Desktop shift+⌘+D
+    - Home shift+⌘+H
+    - Computer shift+⌘+C
+    - AirDrop shift+⌘+R
+    - Network shift+⌘+K
+    - iCloud Drive shift+⌘+I
+    - Applications shift+⌘+A
+    - Utilities shift+⌘+U
+    - Recemt Folders
+    - Go to Folder shift+⌘+G
+    - Connect to server shift+⌘+K
+
+    # Chapter 5
+    ## Even deeper into Desktop and Finder
+    

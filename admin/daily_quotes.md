@@ -60,3 +60,7 @@ Not reality. Approximation of some reality out there. Varying quality.
 >"The test of a first-rate intelligence is the ability to hold two opposed ideas in the mind at the same time, and still retain the ability to function. One should, for example, be able to see that things are hopeless and yet be determined to make them otherwise." - F. Scott Fitzgerald
 
 Maggie. 
+
+07OCT21
+>"You might not make it to the top, but if you are doing what you love, there is much more happiness there than being rich or famous."-Tony Hawk
+

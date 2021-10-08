@@ -150,3 +150,24 @@ Dictionaries of dictionaries - pain in the ass. Need to be comfortable with dict
 https://codingbat.com/python
 
 https://www.hackerrank.com/domains/python
+
+## Control Structures
+
+- In this lesson, we'll discuss 2 primary ways of controlling the flow of execution of our Python scripts:
+    - **Conditionals**: allow us to execute code conditionally
+    - **Loops**: allow us to execute code repeatedly
+
+### Conditionals
+
+- If condition is an "if this then that"
+- The `if` statement is the most basic way to execute code conditionally. Let's take a look at an if statement:
+
+    i_like_coffee = True
+
+    if i_like_coffee:
+        print('I like coffee!')
+        print('Coffee is the best!')
+
+    I like coffee!
+    Coffee is the best!
+
