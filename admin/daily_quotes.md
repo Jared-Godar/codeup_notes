@@ -64,3 +64,7 @@ Maggie.
 07OCT21
 >"You might not make it to the top, but if you are doing what you love, there is much more happiness there than being rich or famous."-Tony Hawk
 
+08OCT21
+>"Not only is the Universe stranger than we think, it is stranger than we can think." -Werner Heisenberg
+
+Keep in mind when looking at datasets and the world. Expect to be surprised. Keep a free slate free of assumptions and bias. 
