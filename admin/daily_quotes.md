@@ -69,4 +69,8 @@ Maggie.
 
 Keep in mind when looking at datasets and the world. Expect to be surprised. Keep a free slate free of assumptions and bias. 
 
-Test
+12OCT21
+>"Practicing sewing/designing clothes? If all you have is expensive cloth, you'll never want to cut and learn to sew. No one learns to drive in a Ferrari on a mountain road." - Kathleen Dollard (Microsoft)
+
+Learn on something you are willing to destroy. Mistakes are inevitable - learn on something where the stakes are low. Learn to sew on scraps.
+
