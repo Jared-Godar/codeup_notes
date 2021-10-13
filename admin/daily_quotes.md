@@ -74,3 +74,11 @@ Keep in mind when looking at datasets and the world. Expect to be surprised. Kee
 
 Learn on something you are willing to destroy. Mistakes are inevitable - learn on something where the stakes are low. Learn to sew on scraps.
 
+13OCT21
+> REMINDER: Boot Camp | Full-immersion | Career Accelerator
+- Not going to be comfortable
+- Will Feel like moving too fast
+- Feel like you dont have the foundation
+- **Trust the process**
+- Continue to movce forward
+- Things will click
