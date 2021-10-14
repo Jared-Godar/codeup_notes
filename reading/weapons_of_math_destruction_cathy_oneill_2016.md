@@ -225,3 +225,5 @@ Declining SAT scores... Artifiact of education becoming more accessible to minor
     - Framing debt as a moral issue is a mistake
 
 ## 9. No Safe Zone: Getting Insurance
+
+- 
