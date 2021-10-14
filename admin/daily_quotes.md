@@ -82,3 +82,7 @@ Learn on something you are willing to destroy. Mistakes are inevitable - learn o
 - **Trust the process**
 - Continue to movce forward
 - Things will click
+
+14OCT21
+>"You just listen to your gut, okay? And on your way down to your gut, check in with your heart. Between those two things, they'll let you know what's what. They make good harmony, like two" - Ted Lasso
+
