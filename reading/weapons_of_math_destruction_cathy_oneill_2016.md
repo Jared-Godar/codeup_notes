@@ -78,7 +78,7 @@ Financing - tuition and fees - left out of the model. What is the objective of t
 
 1985-2013, cost of higher education rose by over 500%, nearly four times the rate of inflatio. Building booms and increased amenities to attract top students. 
 
-Students trrated like investment portfolios with assets and liabilities. Educational consulting firms rank prospects by geography, gender, ethnicity, field of study, academic standard, etc. All within ecosystem of US News rankings. As rankings grow, so do efforts to game them. Global - Saudi Arabia King Abdulaziz University math department jumed to 7th place in 2 years beeating Cambridge and MIT. School offered highlycited mathemeticians $72k to serve as adjunct faculty. Flew business class and five star hotel couple weeks a year. Change affiliation on THomson Reuters citation website - claiming citations of adjunct faculty and significantly boosting ratings.
+Students trrated like investment portfolios with assets and liabilities. Educational consulting firms rank prospects by geography, gender, ethnicity, field of study, academic standard, etc. All within ecosystem of US News rankings. As rankings grow, so do efforts to game them. Global - Saudi A2rabia King Abdulaziz University math department jumed to 7th place in 2 years beeating Cambridge and MIT. School offered highlycited mathemeticians $72k to serve as adjunct faculty. Flew business class and five star hotel couple weeks a year. Change affiliation on THomson Reuters citation website - claiming citations of adjunct faculty and significantly boosting ratings.
 
 Coaches and tutors and test-prep industry. Top-Tier admissions four day "application boot camp" costs $16,000 plus room and board. Develop essays, interview coaching, and other prep. With future success hinging on elite university - people pay the price.
 
@@ -161,3 +161,67 @@ Declining SAT scores... Artifiact of education becoming more accessible to minor
 **Simpson's Paradox** Whole body of data displays one trend, yet when the data is subdivided, the opposite trend emerges for the subgroups. 
 
 ## 8. Collateral Damage: Landing Credit.
+
+- Local bankers used to be part of the community. You knew each other and about each other
+- Earl Isaac and Bill Fair devised the FICO model. 
+- Finances and bill-paying habits
+- Color blind
+- Predicts risk and opens the door to new borrowers
+- Many commendable, non-WMD aspects
+    - Clear feebback loop
+    - Relatively transparent
+    - Regulated
+- Scoring proliferated widely
+- eScores:
+    - Zipcode
+    - Internet surfing habits
+    - Random data
+    - Pseudoscientific model of creditworthiness
+    - Arbitrary, unaccountable, unregulated, often unfair = WMD
+- Neustar:
+    - Customer targeting services for companies
+    - Call center - heigherarchy
+    - Top deemed to be most profitable quickly funneled to operator
+    - Bottom wait longer, overflow center, machine processes
+- Capital One:
+    - on website - look at purchasing patterns / browsing
+        - (Shopping for a new Jaguar or 2003 Taurus)
+    - IP location tied to neighborhood to perceived wealth
+- Negative feedback loop:
+    - Percieved poor = low score
+    - Credit offered targeted to riskier demographic
+    - Less credit at higher interest rate for those already struggling
+- Predatory advertising
+    - Payday loans
+    - For-prifit colleges
+    - Generated through e-scores
+    - Stand-ins for credit scores
+    - Prohibited from using credit scores for marketing purposes
+    - Sloppy sustitute
+    - Paralell data marketplace with unregulated data laregely avoiding government oversight
+    - Measure success by gain in profit - justice and transparency don't fit in algorithm
+- 1950's banker
+    - Consciously or not, weighed irrelavant factors
+        - Rage, age, family history, church attendance
+        - Classified into buckets - "people like you"
+- Fair & Isaac: 
+    - Ditched proxies and used relavant, financial data
+    - Focused on individual, and not others with similar attributes
+- E-scores march us back in time
+    - Blizzard of proxies
+    - Thousands of "people like you" calculations in seconds
+- Data science ethics
+    - Widely accepted race shouldn't be a codified factor
+    - What about zip code?
+        - Seems reasonable on the surface
+        - But codifying past behavior of people on this patch of real estate determining the loan a person living there can get
+        - Need to get away from 'How have people *like* you behaved in the past' towards 'how have *you* behaved in the past.
+        - Vast difference between the two questions
+- Creditwirthiness has become a proxy for other virtues, and lack thereof for a host of sins and shortcomings that have nothing to do with paying bills
+    - Toxic and ubiquitous
+- Nearly half of employers screen by credit score
+    - Creates dangerous poverty cycle
+    - Spiraling feedback loop
+    - Framing debt as a moral issue is a mistake
+
+## 9. No Safe Zone: Getting Insurance
