@@ -91,3 +91,6 @@ Learn on something you are willing to destroy. Mistakes are inevitable - learn o
 ― Enrico Fermi
 
 Most of the aha moments come when things go contrary to our expectations.
+
+> 18OCT21
+""There is no such thing as a failed experiment, only experiments with unexpected outcomes" - Buckminster Fuller
