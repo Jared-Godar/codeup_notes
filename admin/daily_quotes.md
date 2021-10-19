@@ -94,3 +94,6 @@ Most of the aha moments come when things go contrary to our expectations.
 
 > 18OCT21
 ""There is no such thing as a failed experiment, only experiments with unexpected outcomes" - Buckminster Fuller
+
+> 19OCT21
+"The process of doing a second draft is the process of making it look like you knew what you were doing all along." -Neil Gaiman
