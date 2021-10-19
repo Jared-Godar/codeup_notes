@@ -226,4 +226,60 @@ Declining SAT scores... Artifiact of education becoming more accessible to minor
 
 ## 9. No Safe Zone: Getting Insurance
 
-- 
+### Late nineteenth century - Frederick Hoffman - Prudential Life Insurance
+- Created potent WMD
+- Likely intended no harm
+- Valuable malaria work
+- First to associate tobacco with cancer
+- 1896: 330 page report
+    - Statistically 'prove' the lives of black Americans were so precatious they were uninsurable
+    - Mistook correlation / causation
+        - Never considered poverty, injustice, lack of schools, safe workplaces, plumbing, access to health care - contributing to death rate of AAs.
+    - Also failed to stratigy results
+        - Separating AAs into differrent geographical, social, or economic cohorts
+- Insurance companies and bankers have decided entire groups are riskier than others - and some too risky
+    - 'Redlining' practices identified neighborhoods not to invest in
+    - Outlawed by Fair Housing act of 1968, but still present in other forms
+- Insurance grew out of actuary science - dicipline whose roots reach to the 17th century
+- John Graunt, London draper, birth and death records 1682 and came up with first study of mortality rates of an entire community
+- Statisticians calculating the most probable arc of ones life
+- Don't work for individuals, but with big enough samples, the average and range are predictable
+- Predict rates of accidents, fires, and deaths for a large group of people
+- Over the centuries, the insurance industry was built upon those predictions
+- Pool collective risk, protecting individuals when misfortune struck
+- Data science and computers are forcing shift in insurance industry. 
+- New information alllows increased caluculation of risk for a particular individual - not just assigning them to a class like them
+    - Genetic
+    - Sleep, exercise, diet
+    - Driving
+- Using data to divide us into smaller tribes offering different products and services at different prices. Still not individual though and largely opaque
+- Auto insurance price disparities
+    - 2015 nationwide study 2B quotes in every zipcode. Uses credit report to generate e-score including demographic data which is more important than driving history (to them)
+    - NY: Credit from 'excellent' to good, raises price $225
+    - FL: Clean driving record and poor credit score pays 1552 more a ywar than drivers with excellent credit and a *drunk driving conviction*
+- Pricing tiers vary from 90% discounts to 800% of the average - unteathered from risk-based premiums
+- Unfair and opaque
+- Poor drivers who can least afford outrageous premiums are squeezed
+- Sense networks - anonymous movement tracking through cell phone data
+    - Machine learning segmentation
+- Oceans of behavioral data being fed into artificial intelligence
+    - Will determine how we are threated by other machines
+    - Ads / prices / etc
+
+### Health insurance
+
+- 1943 - IRS modified tac code granting tax-free status to employer-based health insurance
+    - Only 9% of Americans had private insurance as a job benefit
+    - New tax perk, businesses started competing for employees by offering insurance
+    - Within ten years, 65% of americans 
+    - Companies already control a lot of our finances, but now our bodies too
+- 75 years later, healthcare is $3T industry (1:$5)
+- Wellness inscentive programs - can offer rewarsd of up to 50% off
+- BMI: Belgian mathemetician Lambert Adolphe Jacques Quelet - 
+    - Easy formula to gauge obesity in large population
+    - Called the 'average man'
+    - Useful concept, but not when applied to an individual
+    - kg/cm
+    - Economic sticks and carrots tied to BMI are flawed
+
+## 10. The Targeted Citizen: Civic Life
