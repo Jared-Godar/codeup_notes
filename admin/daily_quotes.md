@@ -97,3 +97,7 @@ Most of the aha moments come when things go contrary to our expectations.
 
 > 19OCT21
 "The process of doing a second draft is the process of making it look like you knew what you were doing all along." -Neil Gaiman
+
+> 20OCT21
+"We know very little, and yet it is astonishing that we know so much, and still more astonishing that so little knowledge can give us so much power."
+Bertrand Russell
