@@ -101,3 +101,7 @@ Most of the aha moments come when things go contrary to our expectations.
 > 20OCT21
 "We know very little, and yet it is astonishing that we know so much, and still more astonishing that so little knowledge can give us so much power."
 Bertrand Russell
+
+>22OCT21
+“I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.” 
+― Michael Jordan
