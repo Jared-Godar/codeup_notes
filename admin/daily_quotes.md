@@ -109,3 +109,5 @@ Bertrand Russell
 >25OCT21
 ![Image](25oct.png)
 
+>26OCT21
+""There is no better than adversity. Every defeat, every heartbreak, every loss, contains its own seed, its own lesson on how to improve your performance the next time." - Malcolm X
