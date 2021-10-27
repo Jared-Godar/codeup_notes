@@ -111,3 +111,7 @@ Bertrand Russell
 
 >26OCT21
 ""There is no better than adversity. Every defeat, every heartbreak, every loss, contains its own seed, its own lesson on how to improve your performance the next time." - Malcolm X
+
+>27OCT21
+"Scuking at something is the first step to be kind of good at something"
+Path to mastery is a series of failures
