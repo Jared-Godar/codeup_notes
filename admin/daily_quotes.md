@@ -115,3 +115,6 @@ Bertrand Russell
 >27OCT21
 "Scuking at something is the first step to be kind of good at something"
 Path to mastery is a series of failures
+
+>28OCT21:
+Reviewing meeting with codeup grads - soft skills: problem solving and documentation key
