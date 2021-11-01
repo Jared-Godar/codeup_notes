@@ -118,3 +118,6 @@ Path to mastery is a series of failures
 
 >28OCT21:
 Reviewing meeting with codeup grads - soft skills: problem solving and documentation key
+
+>01NOV21:
+Happy Diwali from Ravinder to all
