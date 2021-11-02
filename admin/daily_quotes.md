@@ -121,3 +121,7 @@ Reviewing meeting with codeup grads - soft skills: problem solving and documenta
 
 >01NOV21:
 Happy Diwali from Ravinder to all
+
+
+>02NOV21:
+"Master your instrument, master the music, and then  forget all that bullshit and just play" - Charlie Parker
