@@ -125,3 +125,7 @@ Happy Diwali from Ravinder to all
 
 >02NOV21:
 "Master your instrument, master the music, and then  forget all that bullshit and just play" - Charlie Parker
+
+>04NOV21:
+
+" We can only see a short distance ahead, but we can see plenty there that needs to be done. - ALan Turing
