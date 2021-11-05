@@ -129,3 +129,11 @@ Happy Diwali from Ravinder to all
 >04NOV21:
 
 " We can only see a short distance ahead, but we can see plenty there that needs to be done. - ALan Turing
+
+>05NOV21:
+
+"If debugging is the process of removing software bugs, then programming must be the process of putting them in." - Edsger Dijkstra
+
+"Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?" - Brian Kernighan
+
+Document what you are doing so your future self can see what you are doing. Give variables meaniningful names. Optimize for reading code, not writing code.
