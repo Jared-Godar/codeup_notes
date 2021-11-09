@@ -137,3 +137,7 @@ Happy Diwali from Ravinder to all
 "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?" - Brian Kernighan
 
 Document what you are doing so your future self can see what you are doing. Give variables meaniningful names. Optimize for reading code, not writing code.
+
+> 09NOV21
+"
+Adaptabiliy: Those who are most successful are those who can constantly adapt to changing circumstances.
