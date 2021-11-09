@@ -265,3 +265,22 @@ Like to think of numbers as "cold, hard facts"; calculations can give us the *ri
 ### Garbage in Garbage Out
 
 
+- Spring 2012 *Science* study about spurned fruit flies turning to alcohol
+- Two groups of male flies:
+    - One provided virgin females
+    - One mixed with mated females indifferent to their advances
+    - Both offered normal yeast and sugar fare as well as yeast and sugar + 15% EtOH
+    - Spurned, frustrated flies drank more alcohol
+- Good study design and data leads to clear story, not fancy statistical tricks
+- Data : Statistics :: O-Line : Quarterback
+    - In front of every star QB is a good set of blockers
+    - Usually don't get much credit
+    - Without them, never see a star QB
+- **Garbage in, garbage out**
+
+### Things we ask of our data
+
+1. Demand a sample that is representative of some larger group or population
+    - Voters attitudes towards candidate or measure
+    
+2. 

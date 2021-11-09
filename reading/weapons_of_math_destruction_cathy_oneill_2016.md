@@ -283,3 +283,24 @@ Declining SAT scores... Artifiact of education becoming more accessible to minor
     - Economic sticks and carrots tied to BMI are flawed
 
 ## 10. The Targeted Citizen: Civic Life
+
+- Facebook - once you upload something it is theirs and their algorithms decide which of your friends see it and when
+- Immensely powerful network of 1.5 B people also a publicly traded company
+- May feel like a town square, but facebook determines what we see and learn based on thier own interest
+- About 2/3 American adults have profiles
+    - Average 39 min per day, almost as much as face-to-face socializing
+    - Nearly half users report that they count on facebook for news
+- Voter megaphone; able to impact political process worldwide
+    - Harvest infomation
+    - Measure impact
+    - Influence actions
+- Google, Apple, Amazon, Microsoft, and cell providers have similar vast information on much of humanity
+- Profit closely linked to government regulation (or lack thereof)
+    - Mergers and acquisition
+    - Tax policy
+    - Huge lobbying arm
+- Massive reach and ability for users to influence their friends
+- Manipulate emotional state by filtering messages delivered to be either positive or negative
+- Segmenting voters into buckets
+    - Identifying "persuadable" swing voters
+    - Using a variety of proxiesc dcl   
