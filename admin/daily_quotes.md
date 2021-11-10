@@ -139,5 +139,10 @@ Happy Diwali from Ravinder to all
 Document what you are doing so your future self can see what you are doing. Give variables meaniningful names. Optimize for reading code, not writing code.
 
 > 09NOV21
-"
+""
 Adaptabiliy: Those who are most successful are those who can constantly adapt to changing circumstances.
+
+> 10NOV21
+"Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won’t come in.” – Isaac Asimov
+
+Ravinder. The world changes, sometimes slowly and sometimes abruptly. Periodically check in and re-evaluate things.
