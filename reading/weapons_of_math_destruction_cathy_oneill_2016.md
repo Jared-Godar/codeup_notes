@@ -303,4 +303,70 @@ Declining SAT scores... Artifiact of education becoming more accessible to minor
 - Manipulate emotional state by filtering messages delivered to be either positive or negative
 - Segmenting voters into buckets
     - Identifying "persuadable" swing voters
-    - Using a variety of proxiesc dcl   
+    - Using a variety of proxies
+    - Investiged some potential voters in great depth
+    - Discovered desires, fears, and what it took to change their behavior
+- Next step: find millions of voters resembeling them
+- Target with advertisements
+- A / B testing
+- Thousands of tests and tweaks
+- Evaluating gpeople as potential voters, volunteers, or donors
+- Also reflected stances on issues
+- Data Collection- Cambridge Analytica paid academics for access to facebook research datasets
+    - Performed psychological profiling on 40 million Americans
+    - Openness, conscientiousness, extroversion, agreeableness, and neuroticism
+    - Cruz: targeted ads for each segments ran on shows likely to watch
+- Value of a voter in swing state higher than one already 'gone' and these values are dynamic 
+
+### Civic impact beyond elections
+- Lobbyists and interest roots are using targeted advertising to spur "grassroots" support
+    - Legislative pressure, donations, etc.
+- Deceptive and no accountability
+- Pinpoint vulnerable populations with fear-mongering, while simultaneously shielding voters who would be repulsed or outraged from seeing the same ads
+- TV advertising used to be broad and accountable
+    - Breaking users into behavioral buckets for micro-targeting
+- Becoming harder to access the political messages our neighbors are hearing
+     - Everyone being presented with what is thought they want to see and hear
+    - Makes it harder to understand where people are coming from, driving polarization
+
+- Only voters that *matter* are in a handful of counties in Florida, Ohio, Nevada and a few other places
+    - Undemocratic
+    - Voters that *don't matter* are neglected and ignored and more likely to become disinterested creating a nefarious feedback loop
+    - Looking for cheapest vote to buy - undevided votter vs non-voter; prods certain segment to stay active and let the rest lie fallow
+
+- Same models currently used to inflict damage could be used to humanitiy's benefit
+    - Instead of targeting to manipulate, could line up people for help
+    - Ad can rile up people angry about high rent, but same technology could be used to identify those who would most benefit from affordable housing and help them find it
+- Problem is the goals and objectives
+    - Change the objective from leeching off people to helping and WMD is disarmed and can become a force for good
+
+## Conclusion
+
+- Every aspect of our lives - school, college, court, workplace, and voting booth - impacted by WMDs
+- Promising efficiency and fairness they:
+    - Distort higher education
+    - Drive up debt
+    - Spur mass incarceration
+    - Pummel the ppor at nearly every juncture
+    - Undermine democracy
+### Being poor in a world of WMDs is getting more and more dangerous and expensive
+- Poor people likely to have poor credit and live in high-crime areas surrounded by other poor people
+- Showered with predatory adds - subprime loans and for-profit schools
+- Increased policing, arrests, and harsher sentancing
+- Data feeds into other algoritms
+- Block from jobs
+- Increase rates for mortgages, car, loans, and insuranCE
+- Further drives down credit and spirals
+   
+- Societies "winners" are showered with good things and keeps them from observing how the same models are destroying lives, sometimes only blocks away
+
+### Oath for Data Scientists
+- I will remember that I didn't make the world and it doesn't satisfy my equations
+- Though I will use models boldly to estimate value, I wil not be overly impressed nby mathematics
+- I will never sacrifice reality for elegance without explaining why I have done so
+- Nor will I give the people who use my model false comfort about its accuracy. Instead, I will make explicit its assumptions and oversights
+- I understand that my work may have enormous effects on society and the economy, many of them beyond my comprehension
+
+- Good principles, but solid values and self-regulation only rein in the scrupulous
+- On-the-ground pressure for specific answers
+- 
