@@ -146,3 +146,6 @@ Adaptabiliy: Those who are most successful are those who can constantly adapt to
 "Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won’t come in.” – Isaac Asimov
 
 Ravinder. The world changes, sometimes slowly and sometimes abruptly. Periodically check in and re-evaluate things.
+
+> 12NOV21
+Zach - no quote. Question. Favorite fall hot beverage of choice. 
