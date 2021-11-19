@@ -153,3 +153,9 @@ Zach - no quote. Question. Favorite fall hot beverage of choice.
 >16NOV21
 “The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn.” - Alvin Toffer
 Ravinder
+
+>17NOV21
+"Don't suck." - Maggie Be kind. Be aware of how what you are doing impacts others"
+
+>19NOV21
+"Perfectionism becomes a badge of honor with you playing the part of the suffering hero." - David D. Burns
