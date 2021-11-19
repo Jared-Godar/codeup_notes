@@ -283,4 +283,51 @@ Like to think of numbers as "cold, hard facts"; calculations can give us the *ri
 1. Demand a sample that is representative of some larger group or population
     - Voters attitudes towards candidate or measure
     
-2. 
+2. Provide some sourve of comparison
+    - Is a new medicine more effective than a current treatment
+    - Are ex-convicts who receive job training less likely to return to prison
+    - Do students who attend charter schools perform better than similar students attending regular public school
+
+- Inferences made from reasonably large, properly drawn samples can be every bit as accurate as trying to elicit the same information from the entire population
+    - Easiest way to gather a representative sample is randomly
+    - Simple random sample
+    - Each observation must have an equal chance of being included
+    - Drawing marbles out of an urn
+- Practical challenges
+    - How do you randomly select 100 people as a representative sample for a phone interview
+    - Not everyone even has a phone: so, poorest not included
+    - Others may be more prone to screen calls or not answer
+    - Properly drawn sample will look like th population it was drawn from
+    - Spoonful of soup will tell you what the pot tastes like
+
+### Takeaways
+1. Representative sample is an important thing
+    - Opens the door to some powerful statistical tools
+2. Getting good samples is harder than it looks
+3. Many of the most egregious statistical assertions are caused by good statistical methods applied to bad samples (not the opposite)
+4. Size matters and bigger is better (bowl of soup even better indicator of pot than spoonful)
+    - BUT, bigger sample will not make up for errors (or bias) in its composition
+    - A bad sample is a bad sample
+
+### Difference testing
+
+- Goal is to find two groups of subjucts who are boradly similar except for whatever 'treatment' we are testing
+- Physical and biological sciences, it is straightforward to create treatment and control groups
+- When humans are involved, it gets trickier
+    - We can't force people to do things we make lab rats do
+    - Do repeated concussions cause serious neurological problems later in life?
+        - Important question, but can't take a group of people and bash them over the head
+    - Challenging to create treatment and control groups that vary *only* by the treatment being tested
+        - Randomization is the gold standard
+        - Randomly assigned to treatment or control group
+
+### Sometimes we collect data "just because"
+
+- No specific idea what we will do with the data, but suspect it will come in handy at some point
+- Crime scene detective collecting all evidence captured to sort later for clues
+    - Some will be useful
+    - Some will not
+    - No idea which is which before you start digging
+    - If we knew exactly what info was useful, we probably wouldn't be doing the study in the first place
+- Framingham, Mass 67,000 people long-running longitudinal heart study
+    - Useful for exploring causal relationships
