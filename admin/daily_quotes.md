@@ -159,3 +159,6 @@ Ravinder
 
 >19NOV21
 "Perfectionism becomes a badge of honor with you playing the part of the suffering hero." - David D. Burns
+
+>22NOV21
+"Don't fall on your head." - Maggie
