@@ -162,3 +162,6 @@ Ravinder
 
 >22NOV21
 "Don't fall on your head." - Maggie
+
+>01DEC21
+"There are no mistakes, just happy accidents." - Bob Ross
