@@ -165,3 +165,9 @@ Ravinder
 
 >01DEC21
 "There are no mistakes, just happy accidents." - Bob Ross
+
+>02DEC21
+Some other Bob Ross thing I didn't quite catch...
+
+>03DEC21
+"I hated every minute of training, but I said, “don’t quit, suffer now and live the rest of your life a champion!” - Muhammad Ali
