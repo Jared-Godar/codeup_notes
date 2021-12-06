@@ -171,3 +171,6 @@ Some other Bob Ross thing I didn't quite catch...
 
 >03DEC21
 "I hated every minute of training, but I said, “don’t quit, suffer now and live the rest of your life a champion!” - Muhammad Ali
+
+>06DEC21
+"“The question of relevance comes before that of truth, because to ask whether a statement is true or false presupposes that it is relevant.” -David Bohm
