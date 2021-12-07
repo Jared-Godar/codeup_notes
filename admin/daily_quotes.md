@@ -174,3 +174,6 @@ Some other Bob Ross thing I didn't quite catch...
 
 >06DEC21
 "“The question of relevance comes before that of truth, because to ask whether a statement is true or false presupposes that it is relevant.” -David Bohm
+
+>07DEC21
+Maggie: Nephew went to other bootcamp. Job in Austin. Data is messed up everywhere. Embrace it. Look for low hanging fruit.
