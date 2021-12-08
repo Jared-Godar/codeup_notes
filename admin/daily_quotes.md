@@ -177,3 +177,6 @@ Some other Bob Ross thing I didn't quite catch...
 
 >07DEC21
 Maggie: Nephew went to other bootcamp. Job in Austin. Data is messed up everywhere. Embrace it. Look for low hanging fruit.
+
+>08DEC21
+"Talent is a pursued interest. In other words, anything you are willing to practice, you can do." - Bob Ross
