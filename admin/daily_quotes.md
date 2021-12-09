@@ -180,3 +180,6 @@ Maggie: Nephew went to other bootcamp. Job in Austin. Data is messed up everywhe
 
 >08DEC21
 "Talent is a pursued interest. In other words, anything you are willing to practice, you can do." - Bob Ross
+
+> 09DEC21
+"First rule of assessment:Results needs to be interpreted. Numbers without context are meaningless. - Iris Gonzalez
