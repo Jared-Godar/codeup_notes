@@ -183,3 +183,6 @@ Maggie: Nephew went to other bootcamp. Job in Austin. Data is messed up everywhe
 
 > 09DEC21
 "First rule of assessment:Results needs to be interpreted. Numbers without context are meaningless. - Iris Gonzalez
+
+>10DEC21
+"It's tough to make predictions, especially about the future." - Yogi Berra
