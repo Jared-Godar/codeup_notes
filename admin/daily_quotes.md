@@ -186,3 +186,6 @@ Maggie: Nephew went to other bootcamp. Job in Austin. Data is messed up everywhe
 
 >10DEC21
 "It's tough to make predictions, especially about the future." - Yogi Berra
+
+>14DEC21
+ “Explanation is not half as strong as experience but experience is not half as strong as experience and understanding” - Mark Z Danielewski
