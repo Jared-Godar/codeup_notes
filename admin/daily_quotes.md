@@ -12,7 +12,7 @@ Maggie - Steal Like an Artist Austin Klyon
 Ten things nobody told you about being creative:
 "Art that only comes from the head isn't any good."
 
-Coding / data science *is* a creative enterprise. Ideas and inspiration often come while working on other things. Maintaining balance makes us better, not a problem from not soding all the time. Balance is essential.
+Coding / data science *is* a creative enterprise. Ideas and inspiration often come while working on other things. Maintaining balance makes us better, not a problem from not coding all the time. Balance is essential.
 
 22SEP21
 > "A program is a building of thought.", - Marjn Haverbeke 
@@ -22,7 +22,7 @@ From Ryan. If the blinking cursor is making you want to write code, slow down - 
 23SEP21
 > "Some lessons you learn gradually and some you learn in a sudden moment, like a flash going off incd a dark room.” ―John Darnielle
 
-Don't get frustratd when things don't seem like they are coming as quickly as you would like.
+Don't get frustrated when things don't seem like they are coming as quickly as you would like.
 
 27SEP21
 >"It's tough to make predictions, especially about the future." - Yogi Berra
@@ -30,7 +30,7 @@ Don't get frustratd when things don't seem like they are coming as quickly as yo
 28SEP21
 > "A human must turn information into intelligence or knowledge. We've tended to forget that no computer will ever ask a new question" - Grace Hopper Ravinder. 
 
-Maggie: throwing program, fuction, or machine learning algorithm at every problem - you're on the track to having a job that will be automated. Using human intellegence and thinking can't be automated. That's your job security.
+Maggie: throwing program, function, or machine learning algorithm at every problem - you're on the track to having a job that will be automated. Using human intelligence and thinking can't be automated. That's your job security.
  
 29SEP21
 > “ ‘When someone seeks,’ said Siddhartha, ‘then it easily happens that his eyes see only the thing that he seeks, and he is able to find nothing, to take in nothing. [...] Seeking means: having a goal. But finding means: being free, being open, having no goal.’” -Hermann Hesse
@@ -43,7 +43,7 @@ Often assumed that numbers are cold, hard, objective truth. In data science and 
 01OCT21
 >"Research is formalized curiosity it is poking and prying with purpose." - Zora Hyeston
 
-Easy to get lost in the woods when exploring data. Must go in with pointed questions. Science - should be reprodicuble.
+Easy to get lost in the woods when exploring data. Must go in with pointed questions. Science - should be reproducible.
 
 Cabin at the end of the world - horror novel per madeline
 Their eyes were watching god
@@ -78,9 +78,9 @@ Learn on something you are willing to destroy. Mistakes are inevitable - learn o
 > REMINDER: Boot Camp | Full-immersion | Career Accelerator
 - Not going to be comfortable
 - Will Feel like moving too fast
-- Feel like you dont have the foundation
+- Feel like you don't have the foundation
 - **Trust the process**
-- Continue to movce forward
+- Continue to move forward
 - Things will click
 
 14OCT21
@@ -113,7 +113,7 @@ Bertrand Russell
 ""There is no better than adversity. Every defeat, every heartbreak, every loss, contains its own seed, its own lesson on how to improve your performance the next time." - Malcolm X
 
 >27OCT21
-"Scuking at something is the first step to be kind of good at something"
+"Sucking at something is the first step to be kind of good at something"
 Path to mastery is a series of failures
 
 >28OCT21:
@@ -136,11 +136,11 @@ Happy Diwali from Ravinder to all
 
 "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?" - Brian Kernighan
 
-Document what you are doing so your future self can see what you are doing. Give variables meaniningful names. Optimize for reading code, not writing code.
+Document what you are doing so your future self can see what you are doing. Give variables meaningful names. Optimize for reading code, not writing code.
 
 > 09NOV21
 ""
-Adaptabiliy: Those who are most successful are those who can constantly adapt to changing circumstances.
+Adaptability: Those who are most successful are those who can constantly adapt to changing circumstances.
 
 > 10NOV21
 "Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won’t come in.” – Isaac Asimov
@@ -189,3 +189,6 @@ Maggie: Nephew went to other bootcamp. Job in Austin. Data is messed up everywhe
 
 >14DEC21
  “Explanation is not half as strong as experience but experience is not half as strong as experience and understanding” - Mark Z Danielewski
+
+ >03JAN22
+ "Your only job is to make your classroom safe. That's rule #1. If your classroom isn't safe then nothing else matters," -Milam Learning is a vulnerable act. Involves mistakes and failure. 
