@@ -192,3 +192,6 @@ Maggie: Nephew went to other bootcamp. Job in Austin. Data is messed up everywhe
 
  >03JAN22
  "Your only job is to make your classroom safe. That's rule #1. If your classroom isn't safe then nothing else matters," -Milam Learning is a vulnerable act. Involves mistakes and failure. 
+
+ >04JAN22
+ 
