@@ -89,7 +89,37 @@ Machine learning turns this around: the machine looks at the input data and the 
 
 A machine learning system is *trained* rather than explicitly programmed.
 
+- It’s presented with many examples relevant to a task, and it finds statistical structure in these examples that eventually allows the system to come up with rules for automating the task.
+- For instance, if you wished to automate the task of tagging your vacation pictures, you could present a machine learning system with many examples of pictures already tagged by humans, and the system would learn statistical rules for associating specific pictures to specific tags.
+- Although machine learning only started to flourish in the 1990s, it has quickly become the most popular and most successful subfield of AI, a trend driven by the availability of faster hardware and larger datasets.
+- Unlike statistics, machine learning tends to deal with large, complex datasets (such as a dataset
+of millions of images, each consisting of tens of thousands of pixels) for which classical statistical analysis such as Bayesian analysis would be impractical.
+- As a result, machine learning, and especially deep learning, exhibits comparatively little mathematical
+theory—maybe too little—and is fundamentally an engineering discipline.
 
+- To do machine learning, we need three things:
+  - *Input data points*—For instance, if the task is speech recognition, these data
+points could be sound files of people speaking. If the task is image tagging, they
+could be pictures.
+  - *Examples of the expected output*—In a speech-recognition task, these could be
+human-generated transcripts of sound files. In an image task, expected outputs
+could be tags such as “dog,” “cat,” and so on.
+  - *A way to measure whether the algorithm is doing a good job* —This is necessary in order to determine the distance between the algorithm’s current output and its expected output. The measurement is used as a feedback signal to adjust the way the algorithm works. This adjustment step is what we call learning.
+
+- *Learning*, in the context of machine learning, describes an automatic search process for data transformations that produce useful representations of some data, guided by some feedback signal—representations that are amenable to simpler rules solving the task at hand.
+
+- Machine learning algorithms aren’t usually creative in finding these transformations;
+they’re merely searching through a predefined set of operations, called a *hypothesis space*.
+
+- So that’s what machine learning is, concisely: searching for useful representations and rules over some input data, within a predefined space of possibilities, using guidance from a feedback signal. 
+- This simple idea allows for solving a remarkably broad range of intellectual tasks, from speech recognition to autonomous driving.
+
+### The “deep” in “deep learning”
+
+- Deep learning is a specific subfield of machine learning: a new take on learning representations
+from data that puts an emphasis on learning successive layers of increasingly meaningful representations. 
+- Tje “deep” in “deep learning” isn’t a reference to any kind of deeper understanding achieved by the approach; rather, it stands for this idea of successive layers of representations. 
+- How many layers contribute to a model of the data is called the depth of the model.
 
 
 

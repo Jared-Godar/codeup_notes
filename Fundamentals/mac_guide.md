@@ -4,7 +4,7 @@
 
 ### Drag and Drop**
 
-- Drag file to new location on the same disk
+- Drag file to a new location on the same disk
     - Default to move files to that location
     - Sometimes weird permission issues only allow you to copy from one area to another
     - `option + drag` will copy instead of move
@@ -13,8 +13,8 @@
 
 - UNIX links
 - Aliases (Mac-specific)
-    - Diectory entries that redirect you to a file of another location
-    - Allows you to access the same file in its original path from multiple places without duplcating it.
+    - Directory entries that redirect you to a file of another location
+    - Allows you to access the same file in its original path from multiple places without duplicating it.
 - `Command+Option+Drag` See curved arrow. Released to alias.
     - Can be used to creat a folder of commonly used applications to put into the dock as a stack
 

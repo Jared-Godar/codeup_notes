@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "b24fbb9d7b450ffa",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff2d83ae143948ba",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Fundamentals/mac_guide.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f671655cc3397ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "d40faf3d297c159b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b088e8184aad746",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "da7523653e2f13c6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "11a09152d8cdc732",
+    "type": "split",
+    "children": [
+      {
+        "id": "14f88a6783290733",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f1cc5d6501df55e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fundamentals/mac_guide.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ff2d83ae143948ba",
+  "lastOpenFiles": [
+    "Fundamentals/mac_guide.md"
+  ]
+}
