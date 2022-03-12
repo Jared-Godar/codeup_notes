@@ -133,5 +133,4 @@ As you can see, the base class Car is now closed for modification but opened for
 
 ***Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.***
 
--  A class shouldn’t need to understand the inner workings of another class for it to function properly.
-
+- A class shouldn’t need to understand the inner workings of another class for it to function properly.
