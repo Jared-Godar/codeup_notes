@@ -8,7 +8,7 @@
 
 Creating a class:
 
-```
+```python
 class Employee():
 
     def __init__(self, emp_id, salary):
@@ -28,7 +28,7 @@ class Employee():
 
 - Can create an instance of the Employee class (i.e, an object of `Employee` type)
 
-```
+```python
 emp1 = Employee(1001, 5600)
 
 print(emp1.salary)
@@ -42,7 +42,7 @@ print(emp1.salary)
 
 Create a class based on another class
 
-```
+```python
 class Manager(Employee):
     pass
 ```
@@ -53,14 +53,14 @@ class Manager(Employee):
   - Not just a copy
   - Can add new attributes or modify existing ones
   
-```
+```python
 mgr1 = Manager(101, 75000)
 print(mgr1.salary)
 ```
 
 Update give raise method so it gives 10% raise to managers
 
-```
+```python
 class Manager(Employee):
 
    def give_raise(self):
@@ -77,7 +77,7 @@ print(mgr1.salary)
 
 Create new Director class
 
-```
+```python
 class Director(Employee):
 
    def give_raise(self):
@@ -90,7 +90,7 @@ class Director(Employee):
 - Example of **Polymorphism**
 
 
-```
+```python
 def bulk_raise(list_of_emps):
    for emp in list_of_emps:
       emp.give_raise()
@@ -98,7 +98,7 @@ def bulk_raise(list_of_emps):
 
 The bulk_raise function takes a list of employees and apply the give_raise function to each object in the list. The next step is to create a list of employees of different types.
 
-```
+```python
 emp1 = Employee(101, 45000)
 emp2 = Manager(103, 60000)
 emp3 = Director(105, 70000)
@@ -107,7 +107,7 @@ list_of_emps = [emp1, emp2, emp3]
 
 Our list contains one employee, one manager, and one director objects. We can now call the bulk_raise function.
 
-```
+```python
 bulk_raise(list_of_emps)
 
 print(emp1.salary)
